@@ -42,7 +42,7 @@ class BaseModel(object):
         # load the results
         for var in self.instance.component_objects(Var, active=True):
             _log.info(f"{var.name}: index dim: {var.dim()}, len: {len(var)}")
-            self.result[var.name] = {k: v for (k, v) in self.instance.x.get_values().items()}
+            self.result[var.name] = {k: v for (k, v) in var.get_values().items()}
 
         self.instance.compute_statistics()
         _log.info(f"Number of constraints : {self.instance.statistics.number_of_constraints}")
@@ -60,7 +60,7 @@ class BaseModel(object):
     @staticmethod
     def load_result(p: str = 'result.dill') -> Any:
         """Loads full class via dill
-        Tiles.load_result()
+        PatientScheduling.load_result()
         """
         _log.info(f"Loading result from: {p}.")
         with open(p, 'rb') as handle:
