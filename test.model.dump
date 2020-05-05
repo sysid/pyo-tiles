@@ -1,0 +1,230 @@
+13 Set Declarations
+    C : Dim=0, Dimen=1, Size=2, Domain=None, Ordered=False, Bounds=None
+        ['x', 'y']
+    J : Dim=0, Dimen=1, Size=4, Domain=None, Ordered=False, Bounds=(1, 4)
+        [1, 2, 3, 4]
+    K : no overlap cases
+        Dim=0, Dimen=1, Size=2, Domain=None, Ordered=False, Bounds=(False, True)
+        [False, True]
+    delta_index : Dim=0, Dimen=4, Size=64, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    delta_index_index_0 : Dim=0, Dimen=3, Size=32, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    delta_index_index_0_index_0 : Dim=0, Dimen=2, Size=16, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    inside_space_c_index : Dim=0, Dimen=2, Size=8, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    no_overlap1_c_index : Dim=0, Dimen=3, Size=32, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    no_overlap1_c_index_index_0 : Dim=0, Dimen=2, Size=16, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    no_overlap2_c_index : Dim=0, Dimen=3, Size=32, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    no_overlap2_c_index_index_0 : Dim=0, Dimen=2, Size=16, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    no_overlap_c_index : Dim=0, Dimen=2, Size=16, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    p_index : Dim=0, Dimen=2, Size=8, Domain=None, Ordered=False, Bounds=None
+        Virtual
+
+2 RangeSet Declarations
+    A : max square area width
+        Dim=0, Dimen=1, Size=5, Domain=Integers, Ordered=True, Bounds=(1, 5)
+        Virtual
+    I : tile
+        Dim=0, Dimen=1, Size=4, Domain=Integers, Ordered=True, Bounds=(1, 4)
+        Virtual
+
+2 Param Declarations
+    size : Size=4, Index=I, Domain=Any, Default=None, Mutable=False
+        Key : Value
+          1 :     2
+          2 :     2
+          3 :     2
+          4 :     2
+    size_space : Size=5, Index=A, Domain=Any, Default=None, Mutable=False
+        Key : Value
+          1 :     1
+          2 :     2
+          3 :     3
+          4 :     4
+          5 :     5
+
+6 Var Declarations
+    a : max area of space we can fill
+        Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :     0 :  16.0 :  None : False : False : NonNegativeReals
+    delta : Size=64, Index=delta_index
+        Key                : Lower : Value : Upper : Fixed : Stale : Domain
+        (1, 1, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (1, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 2, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (1, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 3, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (1, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 4, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (1, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (2, 1, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (2, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (2, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (2, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 2, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (2, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (2, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 3, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (2, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (2, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 4, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (3, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 1, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (3, 2, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (3, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 3, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (3, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 4, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (3, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (4, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (4, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 1, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (4, 2, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (4, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (4, 3, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (4, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (4, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (4, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 4, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (4, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+    p : position per y,y
+        Size=8, Index=p_index
+        Key      : Lower : Value : Upper : Fixed : Stale : Domain
+        (1, 'x') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (1, 'y') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (2, 'x') :     0 :   2.0 :  None : False : False : NonNegativeReals
+        (2, 'y') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (3, 'x') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (3, 'y') :     0 :   2.0 :  None : False : False : NonNegativeReals
+        (4, 'x') :     0 :   2.0 :  None : False : False : NonNegativeReals
+        (4, 'y') :     0 :   2.0 :  None : False : False : NonNegativeReals
+    t : selector for tile i
+        Size=4, Index=I
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+          1 :     0 :   1.0 :     1 : False : False : Boolean
+          2 :     0 :   1.0 :     1 : False : False : Boolean
+          3 :     0 :   1.0 :     1 : False : False : Boolean
+          4 :     0 :   1.0 :     1 : False : False : Boolean
+    theta : selector for a
+        Size=5, Index=A
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+          1 :     0 :   0.0 :     1 : False : False : Boolean
+          2 :     0 :   0.0 :     1 : False : False : Boolean
+          3 :     0 :   0.0 :     1 : False : False : Boolean
+          4 :     0 :   1.0 :     1 : False : False : Boolean
+          5 :     0 :   0.0 :     1 : False : False : Boolean
+    w : max width of space we can fill
+        Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :     0 :   4.0 :  None : False : False : NonNegativeReals
+
+1 Objective Declarations
+    objective : Size=1, Index=None, Active=True
+        Key  : Active : Sense    : Expression
+        None :   True : maximize :          w
+
+8 Constraint Declarations
+    area_c : Size=1, Index=None, Active=True
+        Key  : Lower : Body                                                               : Upper : Active
+        None :   0.0 : theta[1] + 4*theta[2] + 9*theta[3] + 16*theta[4] + 25*theta[5] - a :   0.0 :   True
+    inside_space_c : Size=8, Index=inside_space_c_index, Active=True
+        Key      : Lower : Body           : Upper : Active
+        (1, 'x') :  -Inf : p[1,x] + 2 - w :   0.0 :   True
+        (1, 'y') :  -Inf : p[1,y] + 2 - w :   0.0 :   True
+        (2, 'x') :  -Inf : p[2,x] + 2 - w :   0.0 :   True
+        (2, 'y') :  -Inf : p[2,y] + 2 - w :   0.0 :   True
+        (3, 'x') :  -Inf : p[3,x] + 2 - w :   0.0 :   True
+        (3, 'y') :  -Inf : p[3,y] + 2 - w :   0.0 :   True
+        (4, 'x') :  -Inf : p[4,x] + 2 - w :   0.0 :   True
+        (4, 'y') :  -Inf : p[4,y] + 2 - w :   0.0 :   True
+    no_overlap1_c : Size=12, Index=no_overlap1_c_index, Active=True
+        Key         : Lower : Body                                                                          : Upper : Active
+        (1, 2, 'x') :  -Inf : p[1,x] + 2 - 4*(1 - delta[1,2,True,x]) - 4*(1 - t[1]) - 4*(1 - t[2]) - p[2,x] :   0.0 :   True
+        (1, 2, 'y') :  -Inf : p[1,y] + 2 - 4*(1 - delta[1,2,True,y]) - 4*(1 - t[1]) - 4*(1 - t[2]) - p[2,y] :   0.0 :   True
+        (1, 3, 'x') :  -Inf : p[1,x] + 2 - 4*(1 - delta[1,3,True,x]) - 4*(1 - t[1]) - 4*(1 - t[3]) - p[3,x] :   0.0 :   True
+        (1, 3, 'y') :  -Inf : p[1,y] + 2 - 4*(1 - delta[1,3,True,y]) - 4*(1 - t[1]) - 4*(1 - t[3]) - p[3,y] :   0.0 :   True
+        (1, 4, 'x') :  -Inf : p[1,x] + 2 - 4*(1 - delta[1,4,True,x]) - 4*(1 - t[1]) - 4*(1 - t[4]) - p[4,x] :   0.0 :   True
+        (1, 4, 'y') :  -Inf : p[1,y] + 2 - 4*(1 - delta[1,4,True,y]) - 4*(1 - t[1]) - 4*(1 - t[4]) - p[4,y] :   0.0 :   True
+        (2, 3, 'x') :  -Inf : p[2,x] + 2 - 4*(1 - delta[2,3,True,x]) - 4*(1 - t[2]) - 4*(1 - t[3]) - p[3,x] :   0.0 :   True
+        (2, 3, 'y') :  -Inf : p[2,y] + 2 - 4*(1 - delta[2,3,True,y]) - 4*(1 - t[2]) - 4*(1 - t[3]) - p[3,y] :   0.0 :   True
+        (2, 4, 'x') :  -Inf : p[2,x] + 2 - 4*(1 - delta[2,4,True,x]) - 4*(1 - t[2]) - 4*(1 - t[4]) - p[4,x] :   0.0 :   True
+        (2, 4, 'y') :  -Inf : p[2,y] + 2 - 4*(1 - delta[2,4,True,y]) - 4*(1 - t[2]) - 4*(1 - t[4]) - p[4,y] :   0.0 :   True
+        (3, 4, 'x') :  -Inf : p[3,x] + 2 - 4*(1 - delta[3,4,True,x]) - 4*(1 - t[3]) - 4*(1 - t[4]) - p[4,x] :   0.0 :   True
+        (3, 4, 'y') :  -Inf : p[3,y] + 2 - 4*(1 - delta[3,4,True,y]) - 4*(1 - t[3]) - 4*(1 - t[4]) - p[4,y] :   0.0 :   True
+    no_overlap2_c : Size=12, Index=no_overlap2_c_index, Active=True
+        Key         : Lower : Body                                                                             : Upper : Active
+        (1, 2, 'x') :  -Inf : p[2,x] + 2 - (p[1,x] + 4*(1 - delta[1,2,False,x]) + 4*(1 - t[1]) + 4*(1 - t[2])) :   0.0 :   True
+        (1, 2, 'y') :  -Inf : p[2,y] + 2 - (p[1,y] + 4*(1 - delta[1,2,False,y]) + 4*(1 - t[1]) + 4*(1 - t[2])) :   0.0 :   True
+        (1, 3, 'x') :  -Inf : p[3,x] + 2 - (p[1,x] + 4*(1 - delta[1,3,False,x]) + 4*(1 - t[1]) + 4*(1 - t[3])) :   0.0 :   True
+        (1, 3, 'y') :  -Inf : p[3,y] + 2 - (p[1,y] + 4*(1 - delta[1,3,False,y]) + 4*(1 - t[1]) + 4*(1 - t[3])) :   0.0 :   True
+        (1, 4, 'x') :  -Inf : p[4,x] + 2 - (p[1,x] + 4*(1 - delta[1,4,False,x]) + 4*(1 - t[1]) + 4*(1 - t[4])) :   0.0 :   True
+        (1, 4, 'y') :  -Inf : p[4,y] + 2 - (p[1,y] + 4*(1 - delta[1,4,False,y]) + 4*(1 - t[1]) + 4*(1 - t[4])) :   0.0 :   True
+        (2, 3, 'x') :  -Inf : p[3,x] + 2 - (p[2,x] + 4*(1 - delta[2,3,False,x]) + 4*(1 - t[2]) + 4*(1 - t[3])) :   0.0 :   True
+        (2, 3, 'y') :  -Inf : p[3,y] + 2 - (p[2,y] + 4*(1 - delta[2,3,False,y]) + 4*(1 - t[2]) + 4*(1 - t[3])) :   0.0 :   True
+        (2, 4, 'x') :  -Inf : p[4,x] + 2 - (p[2,x] + 4*(1 - delta[2,4,False,x]) + 4*(1 - t[2]) + 4*(1 - t[4])) :   0.0 :   True
+        (2, 4, 'y') :  -Inf : p[4,y] + 2 - (p[2,y] + 4*(1 - delta[2,4,False,y]) + 4*(1 - t[2]) + 4*(1 - t[4])) :   0.0 :   True
+        (3, 4, 'x') :  -Inf : p[4,x] + 2 - (p[3,x] + 4*(1 - delta[3,4,False,x]) + 4*(1 - t[3]) + 4*(1 - t[4])) :   0.0 :   True
+        (3, 4, 'y') :  -Inf : p[4,y] + 2 - (p[3,y] + 4*(1 - delta[3,4,False,y]) + 4*(1 - t[3]) + 4*(1 - t[4])) :   0.0 :   True
+    no_overlap_c : Size=16, Index=no_overlap_c_index, Active=True
+        Key    : Lower : Body                                                                            : Upper : Active
+        (1, 1) :   1.0 : delta[1,1,True,x] + delta[1,1,True,y] + delta[1,1,False,x] + delta[1,1,False,y] :  +Inf :   True
+        (1, 2) :   1.0 : delta[1,2,True,x] + delta[1,2,True,y] + delta[1,2,False,x] + delta[1,2,False,y] :  +Inf :   True
+        (1, 3) :   1.0 : delta[1,3,True,x] + delta[1,3,True,y] + delta[1,3,False,x] + delta[1,3,False,y] :  +Inf :   True
+        (1, 4) :   1.0 : delta[1,4,True,x] + delta[1,4,True,y] + delta[1,4,False,x] + delta[1,4,False,y] :  +Inf :   True
+        (2, 1) :   1.0 : delta[2,1,True,x] + delta[2,1,True,y] + delta[2,1,False,x] + delta[2,1,False,y] :  +Inf :   True
+        (2, 2) :   1.0 : delta[2,2,True,x] + delta[2,2,True,y] + delta[2,2,False,x] + delta[2,2,False,y] :  +Inf :   True
+        (2, 3) :   1.0 : delta[2,3,True,x] + delta[2,3,True,y] + delta[2,3,False,x] + delta[2,3,False,y] :  +Inf :   True
+        (2, 4) :   1.0 : delta[2,4,True,x] + delta[2,4,True,y] + delta[2,4,False,x] + delta[2,4,False,y] :  +Inf :   True
+        (3, 1) :   1.0 : delta[3,1,True,x] + delta[3,1,True,y] + delta[3,1,False,x] + delta[3,1,False,y] :  +Inf :   True
+        (3, 2) :   1.0 : delta[3,2,True,x] + delta[3,2,True,y] + delta[3,2,False,x] + delta[3,2,False,y] :  +Inf :   True
+        (3, 3) :   1.0 : delta[3,3,True,x] + delta[3,3,True,y] + delta[3,3,False,x] + delta[3,3,False,y] :  +Inf :   True
+        (3, 4) :   1.0 : delta[3,4,True,x] + delta[3,4,True,y] + delta[3,4,False,x] + delta[3,4,False,y] :  +Inf :   True
+        (4, 1) :   1.0 : delta[4,1,True,x] + delta[4,1,True,y] + delta[4,1,False,x] + delta[4,1,False,y] :  +Inf :   True
+        (4, 2) :   1.0 : delta[4,2,True,x] + delta[4,2,True,y] + delta[4,2,False,x] + delta[4,2,False,y] :  +Inf :   True
+        (4, 3) :   1.0 : delta[4,3,True,x] + delta[4,3,True,y] + delta[4,3,False,x] + delta[4,3,False,y] :  +Inf :   True
+        (4, 4) :   1.0 : delta[4,4,True,x] + delta[4,4,True,y] + delta[4,4,False,x] + delta[4,4,False,y] :  +Inf :   True
+    theta_c : Size=1, Index=None, Active=True
+        Key  : Lower : Body                                                 : Upper : Active
+        None :   1.0 : theta[1] + theta[2] + theta[3] + theta[4] + theta[5] :   1.0 :   True
+    total_area_c : Size=1, Index=None, Active=True
+        Key  : Lower : Body                                  : Upper : Active
+        None :   0.0 : 4*t[1] + 4*t[2] + 4*t[3] + 4*t[4] - a :   0.0 :   True
+    width_c : Size=1, Index=None, Active=True
+        Key  : Lower : Body                                                             : Upper : Active
+        None :   0.0 : theta[1] + 2*theta[2] + 3*theta[3] + 4*theta[4] + 5*theta[5] - w :   0.0 :   True
+
+32 Declarations: I J A C K size size_space t delta_index_index_0_index_0 delta_index_index_0 delta_index delta theta p_index p w a inside_space_c_index inside_space_c no_overlap1_c_index_index_0 no_overlap1_c_index no_overlap1_c no_overlap2_c_index_index_0 no_overlap2_c_index no_overlap2_c no_overlap_c_index no_overlap_c width_c area_c theta_c total_area_c objective

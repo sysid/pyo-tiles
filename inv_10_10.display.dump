@@ -1,0 +1,2413 @@
+Model unknown
+
+  Variables:
+    t : selector for tile i
+        Size=18, Index=I
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+          1 :     0 :   0.0 :     1 : False : False : Boolean
+          2 :     0 :   0.0 :     1 : False : False : Boolean
+          3 :     0 :   0.0 :     1 : False : False : Boolean
+          4 :     0 :   0.0 :     1 : False : False : Boolean
+          5 :     0 :   0.0 :     1 : False : False : Boolean
+          6 :     0 :   0.0 :     1 : False : False : Boolean
+          7 :     0 :   1.0 :     1 : False : False : Boolean
+          8 :     0 :   1.0 :     1 : False : False : Boolean
+          9 :     0 :   1.0 :     1 : False : False : Boolean
+         10 :     0 :   1.0 :     1 : False : False : Boolean
+         11 :     0 :   0.0 :     1 : False : False : Boolean
+         12 :     0 :   1.0 :     1 : False : False : Boolean
+         13 :     0 :   1.0 :     1 : False : False : Boolean
+         14 :     0 :   1.0 :     1 : False : False : Boolean
+         15 :     0 :   1.0 :     1 : False : False : Boolean
+         16 :     0 :   1.0 :     1 : False : False : Boolean
+         17 :     0 :   1.0 :     1 : False : False : Boolean
+         18 :     0 :   1.0 :     1 : False : False : Boolean
+    delta : Size=1296, Index=delta_index
+        Key                  : Lower : Value : Upper : Fixed : Stale : Domain
+          (1, 1, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (1, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (1, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (1, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (1, 2, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (1, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 3, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (1, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (1, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (1, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 4, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (1, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (1, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (1, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 5, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (1, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (1, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (1, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (1, 6, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (1, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 7, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (1, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (1, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 8, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (1, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (1, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (1, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 9, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (1, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (1, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (1, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 10, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 10, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (1, 10, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 10, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 11, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 11, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (1, 11, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 11, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 12, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 12, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (1, 12, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 12, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 13, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 13, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 13, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 13, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (1, 14, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 14, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (1, 14, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 14, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 15, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 15, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (1, 15, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 15, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 16, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 16, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 16, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 16, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (1, 17, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 17, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 17, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (1, 17, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 18, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 18, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (1, 18, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (1, 18, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 1, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (2, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (2, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (2, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 2, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (2, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (2, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (2, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 3, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (2, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (2, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (2, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (2, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (2, 4, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (2, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (2, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (2, 5, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (2, 6, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (2, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (2, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (2, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (2, 7, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (2, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 8, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (2, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (2, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 9, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 9, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (2, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (2, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 10, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (2, 10, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 10, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 10, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 11, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 11, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 11, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (2, 11, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 12, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 12, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 12, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 12, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (2, 13, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 13, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 13, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 13, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (2, 14, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 14, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (2, 14, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 14, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 15, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (2, 15, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 15, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (2, 15, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 16, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 16, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 16, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 16, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (2, 17, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (2, 17, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 17, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (2, 17, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 18, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (2, 18, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (2, 18, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (2, 18, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (3, 1, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (3, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 2, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (3, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (3, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (3, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (3, 3, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (3, 4, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (3, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (3, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (3, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 5, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (3, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (3, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (3, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (3, 6, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (3, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 7, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (3, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (3, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (3, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 8, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (3, 8, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (3, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 9, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (3, 9, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (3, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 10, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 10, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (3, 10, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 10, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 11, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (3, 11, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 11, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 11, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 12, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (3, 12, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 12, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 12, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 13, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (3, 13, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 13, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 13, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 14, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 14, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 14, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 14, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (3, 15, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (3, 15, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (3, 15, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 15, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 16, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 16, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (3, 16, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 16, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 17, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 17, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 17, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 17, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (3, 18, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 18, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 18, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (3, 18, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (4, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 1, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (4, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (4, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 2, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (4, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (4, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (4, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 3, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (4, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (4, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (4, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (4, 4, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (4, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (4, 5, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (4, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (4, 6, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (4, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (4, 7, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (4, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (4, 8, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (4, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 9, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 9, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (4, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (4, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 10, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 10, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 10, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (4, 10, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 11, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 11, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 11, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (4, 11, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 12, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 12, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 12, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (4, 12, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 13, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 13, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 13, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (4, 13, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 14, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 14, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 14, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 14, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (4, 15, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (4, 15, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (4, 15, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 15, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 16, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 16, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 16, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (4, 16, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 17, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (4, 17, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 17, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 17, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 18, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 18, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (4, 18, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (4, 18, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (5, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (5, 1, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (5, 2, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (5, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (5, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (5, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 3, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (5, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (5, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 4, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (5, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (5, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (5, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 5, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (5, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (5, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (5, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (5, 6, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (5, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 7, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (5, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (5, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 8, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (5, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (5, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 9, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 9, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (5, 9, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (5, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 10, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 10, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (5, 10, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 10, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 11, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 11, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 11, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (5, 11, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 12, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 12, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (5, 12, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 12, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 13, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (5, 13, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (5, 13, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 13, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 14, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 14, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 14, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 14, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (5, 15, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 15, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 15, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 15, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (5, 16, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 16, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 16, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 16, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (5, 17, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 17, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (5, 17, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 17, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 18, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 18, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (5, 18, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (5, 18, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (6, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (6, 1, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (6, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (6, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (6, 2, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (6, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (6, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (6, 3, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (6, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (6, 4, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (6, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 5, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (6, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (6, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 6, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (6, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (6, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (6, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (6, 7, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (6, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 8, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (6, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (6, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (6, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 9, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (6, 9, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (6, 9, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (6, 10, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 10, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (6, 10, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 10, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 11, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 11, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 11, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (6, 11, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 12, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 12, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 12, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 12, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (6, 13, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (6, 13, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 13, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 13, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 14, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 14, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 14, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (6, 14, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 15, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (6, 15, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 15, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 15, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 16, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 16, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 16, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (6, 16, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 17, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 17, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (6, 17, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 17, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 18, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 18, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 18, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (6, 18, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (7, 1, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (7, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 2, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (7, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 3, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (7, 4, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (7, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 5, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (7, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 6, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (7, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 7, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (7, 8, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (7, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 9, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (7, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (7, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 10, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (7, 10, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 10, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 10, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 11, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 11, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (7, 11, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 11, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 12, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (7, 12, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 12, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 12, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 13, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (7, 13, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 13, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 13, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (7, 14, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (7, 14, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 14, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 14, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 15, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (7, 15, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 15, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 15, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 16, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 16, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 16, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 16, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (7, 17, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 17, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 17, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 17, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (7, 18, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 18, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 18, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (7, 18, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (8, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (8, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (8, 1, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (8, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 2, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (8, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (8, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (8, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (8, 3, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (8, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (8, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (8, 4, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (8, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 5, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (8, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (8, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 6, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (8, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (8, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 7, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (8, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (8, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (8, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (8, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (8, 8, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (8, 9, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (8, 9, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (8, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 10, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 10, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (8, 10, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 10, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 11, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 11, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (8, 11, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 11, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 12, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 12, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (8, 12, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 12, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 13, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 13, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (8, 13, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 13, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 14, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 14, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 14, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (8, 14, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 15, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 15, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (8, 15, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 15, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 16, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 16, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 16, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (8, 16, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 17, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 17, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 17, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (8, 17, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 18, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 18, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (8, 18, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (8, 18, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 1, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (9, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (9, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (9, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (9, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (9, 2, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (9, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (9, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (9, 3, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (9, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (9, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (9, 4, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (9, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 5, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (9, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (9, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (9, 6, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+           (9, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 7, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+           (9, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (9, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (9, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (9, 8, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (9, 9, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (9, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+           (9, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+           (9, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 10, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 10, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 10, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 10, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (9, 11, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (9, 11, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 11, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 11, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 12, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (9, 12, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 12, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 12, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 13, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (9, 13, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 13, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 13, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 14, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (9, 14, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 14, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 14, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 15, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (9, 15, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 15, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 15, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 16, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 16, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 16, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 16, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (9, 17, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 17, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 17, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 17, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (9, 18, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 18, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 18, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (9, 18, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (10, 1, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (10, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (10, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (10, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 2, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (10, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (10, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (10, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (10, 3, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (10, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 4, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (10, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (10, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (10, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (10, 5, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (10, 6, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (10, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (10, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (10, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (10, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (10, 7, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (10, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (10, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (10, 8, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (10, 9, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (10, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (10, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (10, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (10, 10, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (10, 10, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 10, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (10, 10, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (10, 11, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (10, 11, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 11, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 11, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (10, 12, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (10, 12, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 12, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (10, 12, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (10, 13, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (10, 13, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (10, 13, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 13, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (10, 14, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (10, 14, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 14, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (10, 14, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (10, 15, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (10, 15, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (10, 15, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 15, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (10, 16, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (10, 16, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 16, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (10, 16, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (10, 17, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (10, 17, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 17, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (10, 17, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (10, 18, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (10, 18, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (10, 18, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (10, 18, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 1, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (11, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (11, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (11, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (11, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (11, 2, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (11, 3, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (11, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (11, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (11, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (11, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (11, 4, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (11, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 5, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (11, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (11, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (11, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (11, 6, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (11, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 7, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (11, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (11, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (11, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (11, 8, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (11, 9, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (11, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (11, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (11, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (11, 10, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (11, 10, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 10, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 10, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (11, 11, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (11, 11, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 11, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (11, 11, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (11, 12, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (11, 12, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 12, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (11, 12, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (11, 13, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (11, 13, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 13, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (11, 13, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (11, 14, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (11, 14, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (11, 14, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 14, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (11, 15, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (11, 15, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (11, 15, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 15, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (11, 16, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (11, 16, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (11, 16, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 16, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (11, 17, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (11, 17, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (11, 17, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 17, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (11, 18, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (11, 18, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (11, 18, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (11, 18, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 1, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (12, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (12, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 2, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (12, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (12, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (12, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (12, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (12, 3, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (12, 4, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (12, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (12, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (12, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (12, 5, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (12, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (12, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (12, 6, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (12, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (12, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (12, 7, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (12, 8, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (12, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (12, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (12, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 9, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (12, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (12, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (12, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (12, 10, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (12, 10, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 10, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (12, 10, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (12, 11, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (12, 11, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 11, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 11, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (12, 12, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (12, 12, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (12, 12, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 12, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (12, 13, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (12, 13, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 13, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 13, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (12, 14, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (12, 14, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (12, 14, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 14, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (12, 15, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (12, 15, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 15, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 15, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (12, 16, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (12, 16, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 16, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (12, 16, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (12, 17, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (12, 17, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 17, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 17, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (12, 18, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (12, 18, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (12, 18, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (12, 18, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (13, 1, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (13, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (13, 2, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (13, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 3, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (13, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (13, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (13, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (13, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (13, 4, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (13, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 5, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (13, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (13, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 6, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (13, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (13, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (13, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (13, 7, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (13, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (13, 8, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (13, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 9, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (13, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (13, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (13, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (13, 10, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (13, 10, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 10, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (13, 10, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (13, 11, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (13, 11, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 11, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 11, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (13, 12, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (13, 12, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 12, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 12, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (13, 13, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (13, 13, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (13, 13, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 13, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (13, 14, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (13, 14, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (13, 14, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 14, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (13, 15, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (13, 15, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (13, 15, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 15, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (13, 16, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (13, 16, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 16, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (13, 16, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (13, 17, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (13, 17, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 17, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 17, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (13, 18, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (13, 18, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (13, 18, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (13, 18, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (14, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (14, 1, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (14, 2, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (14, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (14, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (14, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (14, 3, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (14, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 4, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (14, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (14, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 5, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (14, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (14, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (14, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (14, 6, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (14, 7, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (14, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (14, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (14, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (14, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (14, 8, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (14, 9, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (14, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (14, 9, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (14, 10, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (14, 10, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 10, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 10, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (14, 11, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (14, 11, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 11, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 11, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (14, 12, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (14, 12, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (14, 12, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 12, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (14, 13, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (14, 13, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 13, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 13, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (14, 14, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (14, 14, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 14, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 14, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (14, 15, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (14, 15, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 15, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 15, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (14, 16, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (14, 16, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 16, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (14, 16, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (14, 17, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (14, 17, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 17, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 17, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (14, 18, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (14, 18, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (14, 18, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (14, 18, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (15, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (15, 1, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (15, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (15, 2, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (15, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 3, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (15, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (15, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (15, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (15, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (15, 4, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (15, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 5, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (15, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (15, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 6, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (15, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (15, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (15, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (15, 7, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (15, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (15, 8, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (15, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 9, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (15, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (15, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (15, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (15, 10, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (15, 10, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 10, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 10, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (15, 11, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (15, 11, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 11, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 11, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (15, 12, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (15, 12, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 12, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 12, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (15, 13, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (15, 13, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 13, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 13, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (15, 14, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (15, 14, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (15, 14, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 14, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (15, 15, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (15, 15, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 15, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 15, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (15, 16, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (15, 16, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 16, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (15, 16, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (15, 17, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (15, 17, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 17, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 17, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (15, 18, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (15, 18, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (15, 18, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (15, 18, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (16, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (16, 1, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (16, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 2, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (16, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (16, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 3, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (16, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (16, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (16, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 4, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (16, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (16, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (16, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 5, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (16, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (16, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (16, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 6, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (16, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (16, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (16, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 7, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (16, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (16, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (16, 8, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (16, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 9, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (16, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (16, 9, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (16, 10, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (16, 10, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 10, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 10, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (16, 11, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (16, 11, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 11, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 11, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (16, 12, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (16, 12, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 12, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 12, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (16, 13, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (16, 13, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 13, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (16, 13, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (16, 14, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (16, 14, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 14, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 14, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (16, 15, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (16, 15, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 15, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 15, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (16, 16, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (16, 16, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 16, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 16, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (16, 17, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (16, 17, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 17, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 17, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (16, 18, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (16, 18, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (16, 18, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (16, 18, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (17, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (17, 1, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (17, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (17, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (17, 2, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (17, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 3, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (17, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (17, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 4, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (17, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (17, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (17, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (17, 5, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (17, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 6, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (17, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (17, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (17, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (17, 7, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (17, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 8, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (17, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (17, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (17, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 9, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 9, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+          (17, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (17, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (17, 10, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (17, 10, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 10, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (17, 10, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (17, 11, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (17, 11, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 11, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 11, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (17, 12, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (17, 12, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 12, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 12, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (17, 13, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (17, 13, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 13, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 13, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (17, 14, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (17, 14, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 14, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 14, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (17, 15, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (17, 15, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 15, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 15, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (17, 16, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (17, 16, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 16, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (17, 16, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (17, 17, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (17, 17, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (17, 17, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 17, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (17, 18, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (17, 18, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (17, 18, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (17, 18, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (18, 1, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (18, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (18, 2, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (18, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 3, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (18, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (18, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (18, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (18, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (18, 4, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (18, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (18, 5, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (18, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (18, 6, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (18, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (18, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (18, 7, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (18, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (18, 8, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+          (18, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 9, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+          (18, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+          (18, 9, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (18, 10, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (18, 10, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 10, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 10, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (18, 11, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (18, 11, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 11, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 11, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (18, 12, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (18, 12, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 12, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 12, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (18, 13, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (18, 13, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (18, 13, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 13, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (18, 14, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (18, 14, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 14, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 14, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (18, 15, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (18, 15, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 15, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 15, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (18, 16, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (18, 16, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 16, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 16, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (18, 17, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (18, 17, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 17, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 17, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (18, 18, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (18, 18, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 18, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (18, 18, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+    theta : selector for a
+        Size=10, Index=A
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+          1 :     0 :   0.0 :     1 : False : False : Boolean
+          2 :     0 :   0.0 :     1 : False : False : Boolean
+          3 :     0 :   0.0 :     1 : False : False : Boolean
+          4 :     0 :   0.0 :     1 : False : False : Boolean
+          5 :     0 :   0.0 :     1 : False : False : Boolean
+          6 :     0 :   0.0 :     1 : False : False : Boolean
+          7 :     0 :   0.0 :     1 : False : False : Boolean
+          8 :     0 :   0.0 :     1 : False : False : Boolean
+          9 :     0 :   0.0 :     1 : False : False : Boolean
+         10 :     0 :   1.0 :     1 : False : False : Boolean
+    p : position per y,y
+        Size=36, Index=p_index
+        Key       : Lower : Value : Upper : Fixed : Stale : Domain
+         (1, 'x') :     0 :   9.0 :  None : False : False : NonNegativeReals
+         (1, 'y') :     0 :   9.0 :  None : False : False : NonNegativeReals
+         (2, 'x') :     0 :   9.0 :  None : False : False : NonNegativeReals
+         (2, 'y') :     0 :   9.0 :  None : False : False : NonNegativeReals
+         (3, 'x') :     0 :   9.0 :  None : False : False : NonNegativeReals
+         (3, 'y') :     0 :   9.0 :  None : False : False : NonNegativeReals
+         (4, 'x') :     0 :   0.0 :  None : False : False : NonNegativeReals
+         (4, 'y') :     0 :   0.0 :  None : False : False : NonNegativeReals
+         (5, 'x') :     0 :   0.0 :  None : False : False : NonNegativeReals
+         (5, 'y') :     0 :   0.0 :  None : False : False : NonNegativeReals
+         (6, 'x') :     0 :   0.0 :  None : False : False : NonNegativeReals
+         (6, 'y') :     0 :   0.0 :  None : False : False : NonNegativeReals
+         (7, 'x') :     0 :   8.0 :  None : False : False : NonNegativeReals
+         (7, 'y') :     0 :   0.0 :  None : False : False : NonNegativeReals
+         (8, 'x') :     0 :   0.0 :  None : False : False : NonNegativeReals
+         (8, 'y') :     0 :   8.0 :  None : False : False : NonNegativeReals
+         (9, 'x') :     0 :   6.0 :  None : False : False : NonNegativeReals
+         (9, 'y') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (10, 'x') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (10, 'y') :     0 :   6.0 :  None : False : False : NonNegativeReals
+        (11, 'x') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (11, 'y') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (12, 'x') :     0 :   3.0 :  None : False : False : NonNegativeReals
+        (12, 'y') :     0 :   3.0 :  None : False : False : NonNegativeReals
+        (13, 'x') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (13, 'y') :     0 :   3.0 :  None : False : False : NonNegativeReals
+        (14, 'x') :     0 :   3.0 :  None : False : False : NonNegativeReals
+        (14, 'y') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (15, 'x') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (15, 'y') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (16, 'x') :     0 :   6.0 :  None : False : False : NonNegativeReals
+        (16, 'y') :     0 :   6.0 :  None : False : False : NonNegativeReals
+        (17, 'x') :     0 :   2.0 :  None : False : False : NonNegativeReals
+        (17, 'y') :     0 :   6.0 :  None : False : False : NonNegativeReals
+        (18, 'x') :     0 :   6.0 :  None : False : False : NonNegativeReals
+        (18, 'y') :     0 :   2.0 :  None : False : False : NonNegativeReals
+    w : max width of space we can fill
+        Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :     0 :  10.0 :  None : False : False : NonNegativeReals
+    a : max area of space we can fill
+        Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :     0 : 100.0 :  None : False : False : NonNegativeReals
+
+  Objectives:
+    objective : Size=1, Index=None, Active=True
+        Key  : Active : Value
+        None :   True :  10.0
+
+  Constraints:
+    inside_space_c : Size=36
+        Key       : Lower : Body : Upper
+         (1, 'x') :  None :  0.0 :   0.0
+         (1, 'y') :  None :  0.0 :   0.0
+         (2, 'x') :  None :  0.0 :   0.0
+         (2, 'y') :  None :  0.0 :   0.0
+         (3, 'x') :  None :  0.0 :   0.0
+         (3, 'y') :  None :  0.0 :   0.0
+         (4, 'x') :  None : -9.0 :   0.0
+         (4, 'y') :  None : -9.0 :   0.0
+         (5, 'x') :  None : -9.0 :   0.0
+         (5, 'y') :  None : -9.0 :   0.0
+         (6, 'x') :  None : -9.0 :   0.0
+         (6, 'y') :  None : -9.0 :   0.0
+         (7, 'x') :  None :  0.0 :   0.0
+         (7, 'y') :  None : -8.0 :   0.0
+         (8, 'x') :  None : -8.0 :   0.0
+         (8, 'y') :  None :  0.0 :   0.0
+         (9, 'x') :  None : -2.0 :   0.0
+         (9, 'y') :  None : -8.0 :   0.0
+        (10, 'x') :  None : -8.0 :   0.0
+        (10, 'y') :  None : -2.0 :   0.0
+        (11, 'x') :  None : -8.0 :   0.0
+        (11, 'y') :  None : -8.0 :   0.0
+        (12, 'x') :  None : -4.0 :   0.0
+        (12, 'y') :  None : -4.0 :   0.0
+        (13, 'x') :  None : -7.0 :   0.0
+        (13, 'y') :  None : -4.0 :   0.0
+        (14, 'x') :  None : -4.0 :   0.0
+        (14, 'y') :  None : -7.0 :   0.0
+        (15, 'x') :  None : -7.0 :   0.0
+        (15, 'y') :  None : -7.0 :   0.0
+        (16, 'x') :  None :  0.0 :   0.0
+        (16, 'y') :  None :  0.0 :   0.0
+        (17, 'x') :  None : -4.0 :   0.0
+        (17, 'y') :  None :  0.0 :   0.0
+        (18, 'x') :  None :  0.0 :   0.0
+        (18, 'y') :  None : -4.0 :   0.0
+    no_overlap1_c : Size=306
+        Key           : Lower : Body  : Upper
+          (1, 2, 'x') :  None : -19.0 :   0.0
+          (1, 2, 'y') :  None : -29.0 :   0.0
+          (1, 3, 'x') :  None : -29.0 :   0.0
+          (1, 3, 'y') :  None : -29.0 :   0.0
+          (1, 4, 'x') :  None : -20.0 :   0.0
+          (1, 4, 'y') :  None : -20.0 :   0.0
+          (1, 5, 'x') :  None : -20.0 :   0.0
+          (1, 5, 'y') :  None : -20.0 :   0.0
+          (1, 6, 'x') :  None : -10.0 :   0.0
+          (1, 6, 'y') :  None : -20.0 :   0.0
+          (1, 7, 'x') :  None : -18.0 :   0.0
+          (1, 7, 'y') :  None : -10.0 :   0.0
+          (1, 8, 'x') :  None : -10.0 :   0.0
+          (1, 8, 'y') :  None : -18.0 :   0.0
+          (1, 9, 'x') :  None : -16.0 :   0.0
+          (1, 9, 'y') :  None : -10.0 :   0.0
+         (1, 10, 'x') :  None : -10.0 :   0.0
+         (1, 10, 'y') :  None : -16.0 :   0.0
+         (1, 11, 'x') :  None : -20.0 :   0.0
+         (1, 11, 'y') :  None : -20.0 :   0.0
+         (1, 12, 'x') :  None : -13.0 :   0.0
+         (1, 12, 'y') :  None : -13.0 :   0.0
+         (1, 13, 'x') :  None : -10.0 :   0.0
+         (1, 13, 'y') :  None :  -3.0 :   0.0
+         (1, 14, 'x') :  None : -13.0 :   0.0
+         (1, 14, 'y') :  None : -10.0 :   0.0
+         (1, 15, 'x') :  None : -10.0 :   0.0
+         (1, 15, 'y') :  None : -10.0 :   0.0
+         (1, 16, 'x') :  None : -16.0 :   0.0
+         (1, 16, 'y') :  None :  -6.0 :   0.0
+         (1, 17, 'x') :  None :  -2.0 :   0.0
+         (1, 17, 'y') :  None : -16.0 :   0.0
+         (1, 18, 'x') :  None :  -6.0 :   0.0
+         (1, 18, 'y') :  None : -12.0 :   0.0
+          (2, 3, 'x') :  None : -29.0 :   0.0
+          (2, 3, 'y') :  None : -29.0 :   0.0
+          (2, 4, 'x') :  None : -20.0 :   0.0
+          (2, 4, 'y') :  None : -10.0 :   0.0
+          (2, 5, 'x') :  None : -20.0 :   0.0
+          (2, 5, 'y') :  None : -10.0 :   0.0
+          (2, 6, 'x') :  None : -20.0 :   0.0
+          (2, 6, 'y') :  None : -20.0 :   0.0
+          (2, 7, 'x') :  None :  -8.0 :   0.0
+          (2, 7, 'y') :  None : -10.0 :   0.0
+          (2, 8, 'x') :  None : -10.0 :   0.0
+          (2, 8, 'y') :  None : -18.0 :   0.0
+          (2, 9, 'x') :  None : -16.0 :   0.0
+          (2, 9, 'y') :  None : -10.0 :   0.0
+         (2, 10, 'x') :  None : -10.0 :   0.0
+         (2, 10, 'y') :  None : -16.0 :   0.0
+         (2, 11, 'x') :  None : -10.0 :   0.0
+         (2, 11, 'y') :  None : -20.0 :   0.0
+         (2, 12, 'x') :  None : -13.0 :   0.0
+         (2, 12, 'y') :  None :  -3.0 :   0.0
+         (2, 13, 'x') :  None : -10.0 :   0.0
+         (2, 13, 'y') :  None :  -3.0 :   0.0
+         (2, 14, 'x') :  None : -13.0 :   0.0
+         (2, 14, 'y') :  None : -10.0 :   0.0
+         (2, 15, 'x') :  None :   0.0 :   0.0
+         (2, 15, 'y') :  None : -10.0 :   0.0
+         (2, 16, 'x') :  None : -16.0 :   0.0
+         (2, 16, 'y') :  None :  -6.0 :   0.0
+         (2, 17, 'x') :  None :  -2.0 :   0.0
+         (2, 17, 'y') :  None : -16.0 :   0.0
+         (2, 18, 'x') :  None : -16.0 :   0.0
+         (2, 18, 'y') :  None : -12.0 :   0.0
+          (3, 4, 'x') :  None : -20.0 :   0.0
+          (3, 4, 'y') :  None : -20.0 :   0.0
+          (3, 5, 'x') :  None : -20.0 :   0.0
+          (3, 5, 'y') :  None : -20.0 :   0.0
+          (3, 6, 'x') :  None : -10.0 :   0.0
+          (3, 6, 'y') :  None : -20.0 :   0.0
+          (3, 7, 'x') :  None : -18.0 :   0.0
+          (3, 7, 'y') :  None : -10.0 :   0.0
+          (3, 8, 'x') :  None :   0.0 :   0.0
+          (3, 8, 'y') :  None : -18.0 :   0.0
+          (3, 9, 'x') :  None :  -6.0 :   0.0
+          (3, 9, 'y') :  None : -10.0 :   0.0
+         (3, 10, 'x') :  None : -10.0 :   0.0
+         (3, 10, 'y') :  None : -16.0 :   0.0
+         (3, 11, 'x') :  None : -20.0 :   0.0
+         (3, 11, 'y') :  None : -20.0 :   0.0
+         (3, 12, 'x') :  None : -13.0 :   0.0
+         (3, 12, 'y') :  None : -13.0 :   0.0
+         (3, 13, 'x') :  None : -10.0 :   0.0
+         (3, 13, 'y') :  None : -13.0 :   0.0
+         (3, 14, 'x') :  None : -13.0 :   0.0
+         (3, 14, 'y') :  None :   0.0 :   0.0
+         (3, 15, 'x') :  None : -10.0 :   0.0
+         (3, 15, 'y') :  None : -10.0 :   0.0
+         (3, 16, 'x') :  None : -16.0 :   0.0
+         (3, 16, 'y') :  None : -16.0 :   0.0
+         (3, 17, 'x') :  None : -12.0 :   0.0
+         (3, 17, 'y') :  None :  -6.0 :   0.0
+         (3, 18, 'x') :  None : -16.0 :   0.0
+         (3, 18, 'y') :  None :  -2.0 :   0.0
+          (4, 5, 'x') :  None : -19.0 :   0.0
+          (4, 5, 'y') :  None : -29.0 :   0.0
+          (4, 6, 'x') :  None : -19.0 :   0.0
+          (4, 6, 'y') :  None : -29.0 :   0.0
+          (4, 7, 'x') :  None : -17.0 :   0.0
+          (4, 7, 'y') :  None : -19.0 :   0.0
+          (4, 8, 'x') :  None :  -9.0 :   0.0
+          (4, 8, 'y') :  None : -27.0 :   0.0
+          (4, 9, 'x') :  None : -25.0 :   0.0
+          (4, 9, 'y') :  None : -19.0 :   0.0
+         (4, 10, 'x') :  None :  -9.0 :   0.0
+         (4, 10, 'y') :  None : -25.0 :   0.0
+         (4, 11, 'x') :  None : -19.0 :   0.0
+         (4, 11, 'y') :  None : -29.0 :   0.0
+         (4, 12, 'x') :  None : -12.0 :   0.0
+         (4, 12, 'y') :  None : -22.0 :   0.0
+         (4, 13, 'x') :  None :  -9.0 :   0.0
+         (4, 13, 'y') :  None : -22.0 :   0.0
+         (4, 14, 'x') :  None : -22.0 :   0.0
+         (4, 14, 'y') :  None :  -9.0 :   0.0
+         (4, 15, 'x') :  None : -19.0 :   0.0
+         (4, 15, 'y') :  None : -19.0 :   0.0
+         (4, 16, 'x') :  None : -15.0 :   0.0
+         (4, 16, 'y') :  None : -25.0 :   0.0
+         (4, 17, 'x') :  None : -21.0 :   0.0
+         (4, 17, 'y') :  None : -25.0 :   0.0
+         (4, 18, 'x') :  None : -15.0 :   0.0
+         (4, 18, 'y') :  None : -21.0 :   0.0
+          (5, 6, 'x') :  None : -19.0 :   0.0
+          (5, 6, 'y') :  None : -29.0 :   0.0
+          (5, 7, 'x') :  None : -27.0 :   0.0
+          (5, 7, 'y') :  None : -19.0 :   0.0
+          (5, 8, 'x') :  None : -19.0 :   0.0
+          (5, 8, 'y') :  None : -27.0 :   0.0
+          (5, 9, 'x') :  None : -15.0 :   0.0
+          (5, 9, 'y') :  None : -19.0 :   0.0
+         (5, 10, 'x') :  None : -19.0 :   0.0
+         (5, 10, 'y') :  None : -25.0 :   0.0
+         (5, 11, 'x') :  None : -19.0 :   0.0
+         (5, 11, 'y') :  None : -29.0 :   0.0
+         (5, 12, 'x') :  None : -22.0 :   0.0
+         (5, 12, 'y') :  None : -22.0 :   0.0
+         (5, 13, 'x') :  None : -19.0 :   0.0
+         (5, 13, 'y') :  None : -22.0 :   0.0
+         (5, 14, 'x') :  None : -22.0 :   0.0
+         (5, 14, 'y') :  None :  -9.0 :   0.0
+         (5, 15, 'x') :  None : -19.0 :   0.0
+         (5, 15, 'y') :  None :  -9.0 :   0.0
+         (5, 16, 'x') :  None : -25.0 :   0.0
+         (5, 16, 'y') :  None : -15.0 :   0.0
+         (5, 17, 'x') :  None : -21.0 :   0.0
+         (5, 17, 'y') :  None : -25.0 :   0.0
+         (5, 18, 'x') :  None : -15.0 :   0.0
+         (5, 18, 'y') :  None : -21.0 :   0.0
+          (6, 7, 'x') :  None : -17.0 :   0.0
+          (6, 7, 'y') :  None : -19.0 :   0.0
+          (6, 8, 'x') :  None : -19.0 :   0.0
+          (6, 8, 'y') :  None : -27.0 :   0.0
+          (6, 9, 'x') :  None : -15.0 :   0.0
+          (6, 9, 'y') :  None :  -9.0 :   0.0
+         (6, 10, 'x') :  None : -19.0 :   0.0
+         (6, 10, 'y') :  None : -25.0 :   0.0
+         (6, 11, 'x') :  None : -19.0 :   0.0
+         (6, 11, 'y') :  None : -29.0 :   0.0
+         (6, 12, 'x') :  None : -22.0 :   0.0
+         (6, 12, 'y') :  None : -12.0 :   0.0
+         (6, 13, 'x') :  None : -19.0 :   0.0
+         (6, 13, 'y') :  None : -22.0 :   0.0
+         (6, 14, 'x') :  None : -12.0 :   0.0
+         (6, 14, 'y') :  None : -19.0 :   0.0
+         (6, 15, 'x') :  None : -19.0 :   0.0
+         (6, 15, 'y') :  None : -19.0 :   0.0
+         (6, 16, 'x') :  None : -15.0 :   0.0
+         (6, 16, 'y') :  None : -25.0 :   0.0
+         (6, 17, 'x') :  None : -21.0 :   0.0
+         (6, 17, 'y') :  None : -25.0 :   0.0
+         (6, 18, 'x') :  None : -25.0 :   0.0
+         (6, 18, 'y') :  None : -11.0 :   0.0
+          (7, 8, 'x') :  None :   0.0 :   0.0
+          (7, 8, 'y') :  None : -16.0 :   0.0
+          (7, 9, 'x') :  None :  -6.0 :   0.0
+          (7, 9, 'y') :  None :  -8.0 :   0.0
+         (7, 10, 'x') :  None :   0.0 :   0.0
+         (7, 10, 'y') :  None : -14.0 :   0.0
+         (7, 11, 'x') :  None : -10.0 :   0.0
+         (7, 11, 'y') :  None : -18.0 :   0.0
+         (7, 12, 'x') :  None :  -3.0 :   0.0
+         (7, 12, 'y') :  None : -11.0 :   0.0
+         (7, 13, 'x') :  None :   0.0 :   0.0
+         (7, 13, 'y') :  None :  -1.0 :   0.0
+         (7, 14, 'x') :  None :  -3.0 :   0.0
+         (7, 14, 'y') :  None :  -8.0 :   0.0
+         (7, 15, 'x') :  None :   0.0 :   0.0
+         (7, 15, 'y') :  None :  -8.0 :   0.0
+         (7, 16, 'x') :  None :  -6.0 :   0.0
+         (7, 16, 'y') :  None :  -4.0 :   0.0
+         (7, 17, 'x') :  None :  -2.0 :   0.0
+         (7, 17, 'y') :  None :  -4.0 :   0.0
+         (7, 18, 'x') :  None :  -6.0 :   0.0
+         (7, 18, 'y') :  None :   0.0 :   0.0
+          (8, 9, 'x') :  None :  -4.0 :   0.0
+          (8, 9, 'y') :  None :   0.0 :   0.0
+         (8, 10, 'x') :  None :  -8.0 :   0.0
+         (8, 10, 'y') :  None :  -6.0 :   0.0
+         (8, 11, 'x') :  None : -18.0 :   0.0
+         (8, 11, 'y') :  None : -10.0 :   0.0
+         (8, 12, 'x') :  None : -11.0 :   0.0
+         (8, 12, 'y') :  None :  -3.0 :   0.0
+         (8, 13, 'x') :  None :  -8.0 :   0.0
+         (8, 13, 'y') :  None :  -3.0 :   0.0
+         (8, 14, 'x') :  None :  -1.0 :   0.0
+         (8, 14, 'y') :  None :   0.0 :   0.0
+         (8, 15, 'x') :  None :  -8.0 :   0.0
+         (8, 15, 'y') :  None :   0.0 :   0.0
+         (8, 16, 'x') :  None :  -4.0 :   0.0
+         (8, 16, 'y') :  None :  -6.0 :   0.0
+         (8, 17, 'x') :  None :   0.0 :   0.0
+         (8, 17, 'y') :  None :  -6.0 :   0.0
+         (8, 18, 'x') :  None :  -4.0 :   0.0
+         (8, 18, 'y') :  None :  -2.0 :   0.0
+         (9, 10, 'x') :  None :  -2.0 :   0.0
+         (9, 10, 'y') :  None :  -4.0 :   0.0
+         (9, 11, 'x') :  None : -12.0 :   0.0
+         (9, 11, 'y') :  None : -18.0 :   0.0
+         (9, 12, 'x') :  None :  -5.0 :   0.0
+         (9, 12, 'y') :  None : -11.0 :   0.0
+         (9, 13, 'x') :  None :  -2.0 :   0.0
+         (9, 13, 'y') :  None : -11.0 :   0.0
+         (9, 14, 'x') :  None :  -5.0 :   0.0
+         (9, 14, 'y') :  None :  -8.0 :   0.0
+         (9, 15, 'x') :  None :  -2.0 :   0.0
+         (9, 15, 'y') :  None :  -8.0 :   0.0
+         (9, 16, 'x') :  None :  -8.0 :   0.0
+         (9, 16, 'y') :  None :  -4.0 :   0.0
+         (9, 17, 'x') :  None :  -4.0 :   0.0
+         (9, 17, 'y') :  None :  -4.0 :   0.0
+         (9, 18, 'x') :  None :  -8.0 :   0.0
+         (9, 18, 'y') :  None :   0.0 :   0.0
+        (10, 11, 'x') :  None : -18.0 :   0.0
+        (10, 11, 'y') :  None :  -2.0 :   0.0
+        (10, 12, 'x') :  None :  -1.0 :   0.0
+        (10, 12, 'y') :  None :  -5.0 :   0.0
+        (10, 13, 'x') :  None :  -8.0 :   0.0
+        (10, 13, 'y') :  None :  -5.0 :   0.0
+        (10, 14, 'x') :  None :  -1.0 :   0.0
+        (10, 14, 'y') :  None :  -2.0 :   0.0
+        (10, 15, 'x') :  None :  -8.0 :   0.0
+        (10, 15, 'y') :  None :  -2.0 :   0.0
+        (10, 16, 'x') :  None :  -4.0 :   0.0
+        (10, 16, 'y') :  None :  -8.0 :   0.0
+        (10, 17, 'x') :  None :   0.0 :   0.0
+        (10, 17, 'y') :  None :  -8.0 :   0.0
+        (10, 18, 'x') :  None :  -4.0 :   0.0
+        (10, 18, 'y') :  None :  -4.0 :   0.0
+        (11, 12, 'x') :  None : -11.0 :   0.0
+        (11, 12, 'y') :  None : -21.0 :   0.0
+        (11, 13, 'x') :  None :  -8.0 :   0.0
+        (11, 13, 'y') :  None : -21.0 :   0.0
+        (11, 14, 'x') :  None : -21.0 :   0.0
+        (11, 14, 'y') :  None : -18.0 :   0.0
+        (11, 15, 'x') :  None : -18.0 :   0.0
+        (11, 15, 'y') :  None : -18.0 :   0.0
+        (11, 16, 'x') :  None : -24.0 :   0.0
+        (11, 16, 'y') :  None : -24.0 :   0.0
+        (11, 17, 'x') :  None : -20.0 :   0.0
+        (11, 17, 'y') :  None : -24.0 :   0.0
+        (11, 18, 'x') :  None : -24.0 :   0.0
+        (11, 18, 'y') :  None : -20.0 :   0.0
+        (12, 13, 'x') :  None :  -4.0 :   0.0
+        (12, 13, 'y') :  None :  -7.0 :   0.0
+        (12, 14, 'x') :  None :  -7.0 :   0.0
+        (12, 14, 'y') :  None :  -4.0 :   0.0
+        (12, 15, 'x') :  None :  -4.0 :   0.0
+        (12, 15, 'y') :  None :  -4.0 :   0.0
+        (12, 16, 'x') :  None :   0.0 :   0.0
+        (12, 16, 'y') :  None : -10.0 :   0.0
+        (12, 17, 'x') :  None :  -6.0 :   0.0
+        (12, 17, 'y') :  None :   0.0 :   0.0
+        (12, 18, 'x') :  None :   0.0 :   0.0
+        (12, 18, 'y') :  None :  -6.0 :   0.0
+        (13, 14, 'x') :  None : -10.0 :   0.0
+        (13, 14, 'y') :  None :  -4.0 :   0.0
+        (13, 15, 'x') :  None :  -7.0 :   0.0
+        (13, 15, 'y') :  None :  -4.0 :   0.0
+        (13, 16, 'x') :  None :  -3.0 :   0.0
+        (13, 16, 'y') :  None : -10.0 :   0.0
+        (13, 17, 'x') :  None :  -9.0 :   0.0
+        (13, 17, 'y') :  None :   0.0 :   0.0
+        (13, 18, 'x') :  None :  -3.0 :   0.0
+        (13, 18, 'y') :  None :  -6.0 :   0.0
+        (14, 15, 'x') :  None :  -4.0 :   0.0
+        (14, 15, 'y') :  None :  -7.0 :   0.0
+        (14, 16, 'x') :  None :   0.0 :   0.0
+        (14, 16, 'y') :  None : -13.0 :   0.0
+        (14, 17, 'x') :  None :  -6.0 :   0.0
+        (14, 17, 'y') :  None :  -3.0 :   0.0
+        (14, 18, 'x') :  None :   0.0 :   0.0
+        (14, 18, 'y') :  None :  -9.0 :   0.0
+        (15, 16, 'x') :  None :  -3.0 :   0.0
+        (15, 16, 'y') :  None : -13.0 :   0.0
+        (15, 17, 'x') :  None :  -9.0 :   0.0
+        (15, 17, 'y') :  None :  -3.0 :   0.0
+        (15, 18, 'x') :  None :  -3.0 :   0.0
+        (15, 18, 'y') :  None :  -9.0 :   0.0
+        (16, 17, 'x') :  None :  -2.0 :   0.0
+        (16, 17, 'y') :  None :  -6.0 :   0.0
+        (16, 18, 'x') :  None :  -6.0 :   0.0
+        (16, 18, 'y') :  None :  -2.0 :   0.0
+        (17, 18, 'x') :  None : -10.0 :   0.0
+        (17, 18, 'y') :  None :  -2.0 :   0.0
+    no_overlap2_c : Size=306
+        Key           : Lower : Body  : Upper
+          (1, 2, 'x') :  None : -29.0 :   0.0
+          (1, 2, 'y') :  None : -29.0 :   0.0
+          (1, 3, 'x') :  None : -19.0 :   0.0
+          (1, 3, 'y') :  None : -29.0 :   0.0
+          (1, 4, 'x') :  None : -28.0 :   0.0
+          (1, 4, 'y') :  None : -38.0 :   0.0
+          (1, 5, 'x') :  None : -28.0 :   0.0
+          (1, 5, 'y') :  None : -38.0 :   0.0
+          (1, 6, 'x') :  None : -38.0 :   0.0
+          (1, 6, 'y') :  None : -38.0 :   0.0
+          (1, 7, 'x') :  None : -19.0 :   0.0
+          (1, 7, 'y') :  None : -17.0 :   0.0
+          (1, 8, 'x') :  None : -17.0 :   0.0
+          (1, 8, 'y') :  None : -19.0 :   0.0
+          (1, 9, 'x') :  None : -11.0 :   0.0
+          (1, 9, 'y') :  None : -27.0 :   0.0
+         (1, 10, 'x') :  None : -27.0 :   0.0
+         (1, 10, 'y') :  None : -11.0 :   0.0
+         (1, 11, 'x') :  None : -37.0 :   0.0
+         (1, 11, 'y') :  None : -27.0 :   0.0
+         (1, 12, 'x') :  None : -23.0 :   0.0
+         (1, 12, 'y') :  None : -13.0 :   0.0
+         (1, 13, 'x') :  None : -26.0 :   0.0
+         (1, 13, 'y') :  None : -23.0 :   0.0
+         (1, 14, 'x') :  None : -23.0 :   0.0
+         (1, 14, 'y') :  None : -16.0 :   0.0
+         (1, 15, 'x') :  None : -26.0 :   0.0
+         (1, 15, 'y') :  None : -16.0 :   0.0
+         (1, 16, 'x') :  None : -19.0 :   0.0
+         (1, 16, 'y') :  None : -19.0 :   0.0
+         (1, 17, 'x') :  None : -23.0 :   0.0
+         (1, 17, 'y') :  None : -19.0 :   0.0
+         (1, 18, 'x') :  None : -19.0 :   0.0
+         (1, 18, 'y') :  None : -23.0 :   0.0
+          (2, 3, 'x') :  None : -19.0 :   0.0
+          (2, 3, 'y') :  None : -29.0 :   0.0
+          (2, 4, 'x') :  None : -38.0 :   0.0
+          (2, 4, 'y') :  None : -38.0 :   0.0
+          (2, 5, 'x') :  None : -38.0 :   0.0
+          (2, 5, 'y') :  None : -38.0 :   0.0
+          (2, 6, 'x') :  None : -28.0 :   0.0
+          (2, 6, 'y') :  None : -38.0 :   0.0
+          (2, 7, 'x') :  None : -19.0 :   0.0
+          (2, 7, 'y') :  None : -27.0 :   0.0
+          (2, 8, 'x') :  None : -27.0 :   0.0
+          (2, 8, 'y') :  None :  -9.0 :   0.0
+          (2, 9, 'x') :  None : -21.0 :   0.0
+          (2, 9, 'y') :  None : -17.0 :   0.0
+         (2, 10, 'x') :  None : -17.0 :   0.0
+         (2, 10, 'y') :  None : -21.0 :   0.0
+         (2, 11, 'x') :  None : -37.0 :   0.0
+         (2, 11, 'y') :  None : -37.0 :   0.0
+         (2, 12, 'x') :  None : -23.0 :   0.0
+         (2, 12, 'y') :  None : -23.0 :   0.0
+         (2, 13, 'x') :  None : -26.0 :   0.0
+         (2, 13, 'y') :  None : -23.0 :   0.0
+         (2, 14, 'x') :  None : -23.0 :   0.0
+         (2, 14, 'y') :  None : -16.0 :   0.0
+         (2, 15, 'x') :  None : -16.0 :   0.0
+         (2, 15, 'y') :  None : -26.0 :   0.0
+         (2, 16, 'x') :  None : -19.0 :   0.0
+         (2, 16, 'y') :  None : -19.0 :   0.0
+         (2, 17, 'x') :  None : -13.0 :   0.0
+         (2, 17, 'y') :  None : -19.0 :   0.0
+         (2, 18, 'x') :  None :  -9.0 :   0.0
+         (2, 18, 'y') :  None : -13.0 :   0.0
+          (3, 4, 'x') :  None : -28.0 :   0.0
+          (3, 4, 'y') :  None : -38.0 :   0.0
+          (3, 5, 'x') :  None : -28.0 :   0.0
+          (3, 5, 'y') :  None : -38.0 :   0.0
+          (3, 6, 'x') :  None : -38.0 :   0.0
+          (3, 6, 'y') :  None : -38.0 :   0.0
+          (3, 7, 'x') :  None :  -9.0 :   0.0
+          (3, 7, 'y') :  None : -27.0 :   0.0
+          (3, 8, 'x') :  None : -27.0 :   0.0
+          (3, 8, 'y') :  None :  -9.0 :   0.0
+          (3, 9, 'x') :  None : -21.0 :   0.0
+          (3, 9, 'y') :  None : -27.0 :   0.0
+         (3, 10, 'x') :  None : -27.0 :   0.0
+         (3, 10, 'y') :  None : -11.0 :   0.0
+         (3, 11, 'x') :  None : -27.0 :   0.0
+         (3, 11, 'y') :  None : -37.0 :   0.0
+         (3, 12, 'x') :  None : -13.0 :   0.0
+         (3, 12, 'y') :  None : -23.0 :   0.0
+         (3, 13, 'x') :  None : -16.0 :   0.0
+         (3, 13, 'y') :  None : -23.0 :   0.0
+         (3, 14, 'x') :  None : -23.0 :   0.0
+         (3, 14, 'y') :  None : -26.0 :   0.0
+         (3, 15, 'x') :  None : -16.0 :   0.0
+         (3, 15, 'y') :  None : -16.0 :   0.0
+         (3, 16, 'x') :  None : -19.0 :   0.0
+         (3, 16, 'y') :  None :  -9.0 :   0.0
+         (3, 17, 'x') :  None : -23.0 :   0.0
+         (3, 17, 'y') :  None : -19.0 :   0.0
+         (3, 18, 'x') :  None : -19.0 :   0.0
+         (3, 18, 'y') :  None : -23.0 :   0.0
+          (4, 5, 'x') :  None : -29.0 :   0.0
+          (4, 5, 'y') :  None : -29.0 :   0.0
+          (4, 6, 'x') :  None : -29.0 :   0.0
+          (4, 6, 'y') :  None : -29.0 :   0.0
+          (4, 7, 'x') :  None : -10.0 :   0.0
+          (4, 7, 'y') :  None : -18.0 :   0.0
+          (4, 8, 'x') :  None : -18.0 :   0.0
+          (4, 8, 'y') :  None : -10.0 :   0.0
+          (4, 9, 'x') :  None : -12.0 :   0.0
+          (4, 9, 'y') :  None :  -8.0 :   0.0
+         (4, 10, 'x') :  None : -18.0 :   0.0
+         (4, 10, 'y') :  None : -12.0 :   0.0
+         (4, 11, 'x') :  None : -28.0 :   0.0
+         (4, 11, 'y') :  None : -28.0 :   0.0
+         (4, 12, 'x') :  None : -14.0 :   0.0
+         (4, 12, 'y') :  None : -14.0 :   0.0
+         (4, 13, 'x') :  None : -17.0 :   0.0
+         (4, 13, 'y') :  None : -14.0 :   0.0
+         (4, 14, 'x') :  None : -14.0 :   0.0
+         (4, 14, 'y') :  None : -17.0 :   0.0
+         (4, 15, 'x') :  None :  -7.0 :   0.0
+         (4, 15, 'y') :  None :  -7.0 :   0.0
+         (4, 16, 'x') :  None : -10.0 :   0.0
+         (4, 16, 'y') :  None : -10.0 :   0.0
+         (4, 17, 'x') :  None :  -4.0 :   0.0
+         (4, 17, 'y') :  None : -10.0 :   0.0
+         (4, 18, 'x') :  None : -10.0 :   0.0
+         (4, 18, 'y') :  None : -14.0 :   0.0
+          (5, 6, 'x') :  None : -29.0 :   0.0
+          (5, 6, 'y') :  None : -29.0 :   0.0
+          (5, 7, 'x') :  None : -10.0 :   0.0
+          (5, 7, 'y') :  None :  -8.0 :   0.0
+          (5, 8, 'x') :  None : -18.0 :   0.0
+          (5, 8, 'y') :  None :   0.0 :   0.0
+          (5, 9, 'x') :  None : -12.0 :   0.0
+          (5, 9, 'y') :  None :  -8.0 :   0.0
+         (5, 10, 'x') :  None : -18.0 :   0.0
+         (5, 10, 'y') :  None :  -2.0 :   0.0
+         (5, 11, 'x') :  None : -28.0 :   0.0
+         (5, 11, 'y') :  None : -28.0 :   0.0
+         (5, 12, 'x') :  None : -14.0 :   0.0
+         (5, 12, 'y') :  None :  -4.0 :   0.0
+         (5, 13, 'x') :  None :  -7.0 :   0.0
+         (5, 13, 'y') :  None :  -4.0 :   0.0
+         (5, 14, 'x') :  None : -14.0 :   0.0
+         (5, 14, 'y') :  None : -17.0 :   0.0
+         (5, 15, 'x') :  None : -17.0 :   0.0
+         (5, 15, 'y') :  None : -17.0 :   0.0
+         (5, 16, 'x') :  None : -10.0 :   0.0
+         (5, 16, 'y') :  None : -10.0 :   0.0
+         (5, 17, 'x') :  None : -14.0 :   0.0
+         (5, 17, 'y') :  None :   0.0 :   0.0
+         (5, 18, 'x') :  None : -10.0 :   0.0
+         (5, 18, 'y') :  None : -14.0 :   0.0
+          (6, 7, 'x') :  None : -10.0 :   0.0
+          (6, 7, 'y') :  None : -18.0 :   0.0
+          (6, 8, 'x') :  None :  -8.0 :   0.0
+          (6, 8, 'y') :  None : -10.0 :   0.0
+          (6, 9, 'x') :  None : -12.0 :   0.0
+          (6, 9, 'y') :  None : -18.0 :   0.0
+         (6, 10, 'x') :  None : -18.0 :   0.0
+         (6, 10, 'y') :  None :  -2.0 :   0.0
+         (6, 11, 'x') :  None : -28.0 :   0.0
+         (6, 11, 'y') :  None : -28.0 :   0.0
+         (6, 12, 'x') :  None : -14.0 :   0.0
+         (6, 12, 'y') :  None : -14.0 :   0.0
+         (6, 13, 'x') :  None :  -7.0 :   0.0
+         (6, 13, 'y') :  None : -14.0 :   0.0
+         (6, 14, 'x') :  None : -14.0 :   0.0
+         (6, 14, 'y') :  None : -17.0 :   0.0
+         (6, 15, 'x') :  None :  -7.0 :   0.0
+         (6, 15, 'y') :  None : -17.0 :   0.0
+         (6, 16, 'x') :  None : -10.0 :   0.0
+         (6, 16, 'y') :  None : -10.0 :   0.0
+         (6, 17, 'x') :  None : -14.0 :   0.0
+         (6, 17, 'y') :  None :   0.0 :   0.0
+         (6, 18, 'x') :  None : -10.0 :   0.0
+         (6, 18, 'y') :  None : -14.0 :   0.0
+          (7, 8, 'x') :  None :  -6.0 :   0.0
+          (7, 8, 'y') :  None :   0.0 :   0.0
+          (7, 9, 'x') :  None :   0.0 :   0.0
+          (7, 9, 'y') :  None :  -8.0 :   0.0
+         (7, 10, 'x') :  None :  -6.0 :   0.0
+         (7, 10, 'y') :  None :  -2.0 :   0.0
+         (7, 11, 'x') :  None : -26.0 :   0.0
+         (7, 11, 'y') :  None :  -8.0 :   0.0
+         (7, 12, 'x') :  None :  -2.0 :   0.0
+         (7, 12, 'y') :  None :  -4.0 :   0.0
+         (7, 13, 'x') :  None :  -5.0 :   0.0
+         (7, 13, 'y') :  None :  -4.0 :   0.0
+         (7, 14, 'x') :  None :  -2.0 :   0.0
+         (7, 14, 'y') :  None :  -7.0 :   0.0
+         (7, 15, 'x') :  None :  -5.0 :   0.0
+         (7, 15, 'y') :  None :  -7.0 :   0.0
+         (7, 16, 'x') :  None :  -8.0 :   0.0
+         (7, 16, 'y') :  None :   0.0 :   0.0
+         (7, 17, 'x') :  None : -12.0 :   0.0
+         (7, 17, 'y') :  None :   0.0 :   0.0
+         (7, 18, 'x') :  None :  -8.0 :   0.0
+         (7, 18, 'y') :  None :  -4.0 :   0.0
+          (8, 9, 'x') :  None :  -2.0 :   0.0
+          (8, 9, 'y') :  None : -16.0 :   0.0
+         (8, 10, 'x') :  None :  -8.0 :   0.0
+         (8, 10, 'y') :  None :   0.0 :   0.0
+         (8, 11, 'x') :  None : -18.0 :   0.0
+         (8, 11, 'y') :  None : -16.0 :   0.0
+         (8, 12, 'x') :  None :  -4.0 :   0.0
+         (8, 12, 'y') :  None :  -2.0 :   0.0
+         (8, 13, 'x') :  None :  -7.0 :   0.0
+         (8, 13, 'y') :  None :  -2.0 :   0.0
+         (8, 14, 'x') :  None :  -4.0 :   0.0
+         (8, 14, 'y') :  None : -15.0 :   0.0
+         (8, 15, 'x') :  None :  -7.0 :   0.0
+         (8, 15, 'y') :  None :  -5.0 :   0.0
+         (8, 16, 'x') :  None :   0.0 :   0.0
+         (8, 16, 'y') :  None :  -8.0 :   0.0
+         (8, 17, 'x') :  None :  -4.0 :   0.0
+         (8, 17, 'y') :  None :  -8.0 :   0.0
+         (8, 18, 'x') :  None :   0.0 :   0.0
+         (8, 18, 'y') :  None : -12.0 :   0.0
+         (9, 10, 'x') :  None : -14.0 :   0.0
+         (9, 10, 'y') :  None :  -2.0 :   0.0
+         (9, 11, 'x') :  None : -14.0 :   0.0
+         (9, 11, 'y') :  None : -18.0 :   0.0
+         (9, 12, 'x') :  None :   0.0 :   0.0
+         (9, 12, 'y') :  None :  -4.0 :   0.0
+         (9, 13, 'x') :  None :  -3.0 :   0.0
+         (9, 13, 'y') :  None :  -4.0 :   0.0
+         (9, 14, 'x') :  None :   0.0 :   0.0
+         (9, 14, 'y') :  None :  -7.0 :   0.0
+         (9, 15, 'x') :  None :  -3.0 :   0.0
+         (9, 15, 'y') :  None :  -7.0 :   0.0
+         (9, 16, 'x') :  None :  -6.0 :   0.0
+         (9, 16, 'y') :  None :   0.0 :   0.0
+         (9, 17, 'x') :  None : -10.0 :   0.0
+         (9, 17, 'y') :  None :   0.0 :   0.0
+         (9, 18, 'x') :  None :  -6.0 :   0.0
+         (9, 18, 'y') :  None :  -4.0 :   0.0
+        (10, 11, 'x') :  None : -18.0 :   0.0
+        (10, 11, 'y') :  None : -24.0 :   0.0
+        (10, 12, 'x') :  None :  -4.0 :   0.0
+        (10, 12, 'y') :  None : -10.0 :   0.0
+        (10, 13, 'x') :  None :  -7.0 :   0.0
+        (10, 13, 'y') :  None :   0.0 :   0.0
+        (10, 14, 'x') :  None :  -4.0 :   0.0
+        (10, 14, 'y') :  None : -13.0 :   0.0
+        (10, 15, 'x') :  None :  -7.0 :   0.0
+        (10, 15, 'y') :  None :  -3.0 :   0.0
+        (10, 16, 'x') :  None :   0.0 :   0.0
+        (10, 16, 'y') :  None :  -6.0 :   0.0
+        (10, 17, 'x') :  None :  -4.0 :   0.0
+        (10, 17, 'y') :  None :  -6.0 :   0.0
+        (10, 18, 'x') :  None :   0.0 :   0.0
+        (10, 18, 'y') :  None : -10.0 :   0.0
+        (11, 12, 'x') :  None : -14.0 :   0.0
+        (11, 12, 'y') :  None : -14.0 :   0.0
+        (11, 13, 'x') :  None : -17.0 :   0.0
+        (11, 13, 'y') :  None : -14.0 :   0.0
+        (11, 14, 'x') :  None : -14.0 :   0.0
+        (11, 14, 'y') :  None :  -7.0 :   0.0
+        (11, 15, 'x') :  None : -17.0 :   0.0
+        (11, 15, 'y') :  None :  -7.0 :   0.0
+        (11, 16, 'x') :  None :   0.0 :   0.0
+        (11, 16, 'y') :  None :   0.0 :   0.0
+        (11, 17, 'x') :  None : -14.0 :   0.0
+        (11, 17, 'y') :  None :   0.0 :   0.0
+        (11, 18, 'x') :  None :   0.0 :   0.0
+        (11, 18, 'y') :  None :  -4.0 :   0.0
+        (12, 13, 'x') :  None :   0.0 :   0.0
+        (12, 13, 'y') :  None :  -7.0 :   0.0
+        (12, 14, 'x') :  None :  -7.0 :   0.0
+        (12, 14, 'y') :  None :   0.0 :   0.0
+        (12, 15, 'x') :  None :   0.0 :   0.0
+        (12, 15, 'y') :  None : -10.0 :   0.0
+        (12, 16, 'x') :  None :  -3.0 :   0.0
+        (12, 16, 'y') :  None :  -3.0 :   0.0
+        (12, 17, 'x') :  None :  -7.0 :   0.0
+        (12, 17, 'y') :  None :  -3.0 :   0.0
+        (12, 18, 'x') :  None :  -3.0 :   0.0
+        (12, 18, 'y') :  None :  -7.0 :   0.0
+        (13, 14, 'x') :  None :  -4.0 :   0.0
+        (13, 14, 'y') :  None :   0.0 :   0.0
+        (13, 15, 'x') :  None :  -7.0 :   0.0
+        (13, 15, 'y') :  None :   0.0 :   0.0
+        (13, 16, 'x') :  None :   0.0 :   0.0
+        (13, 16, 'y') :  None :  -3.0 :   0.0
+        (13, 17, 'x') :  None :  -4.0 :   0.0
+        (13, 17, 'y') :  None :  -3.0 :   0.0
+        (13, 18, 'x') :  None :   0.0 :   0.0
+        (13, 18, 'y') :  None :  -7.0 :   0.0
+        (14, 15, 'x') :  None :   0.0 :   0.0
+        (14, 15, 'y') :  None :  -7.0 :   0.0
+        (14, 16, 'x') :  None :  -3.0 :   0.0
+        (14, 16, 'y') :  None :   0.0 :   0.0
+        (14, 17, 'x') :  None :  -7.0 :   0.0
+        (14, 17, 'y') :  None :   0.0 :   0.0
+        (14, 18, 'x') :  None :  -3.0 :   0.0
+        (14, 18, 'y') :  None :  -4.0 :   0.0
+        (15, 16, 'x') :  None :   0.0 :   0.0
+        (15, 16, 'y') :  None :   0.0 :   0.0
+        (15, 17, 'x') :  None :  -4.0 :   0.0
+        (15, 17, 'y') :  None :   0.0 :   0.0
+        (15, 18, 'x') :  None :   0.0 :   0.0
+        (15, 18, 'y') :  None :  -4.0 :   0.0
+        (16, 17, 'x') :  None :   0.0 :   0.0
+        (16, 17, 'y') :  None :  -6.0 :   0.0
+        (16, 18, 'x') :  None :  -6.0 :   0.0
+        (16, 18, 'y') :  None :   0.0 :   0.0
+        (17, 18, 'x') :  None :  -2.0 :   0.0
+        (17, 18, 'y') :  None :   0.0 :   0.0
+    no_overlap_c : Size=324
+        Key      : Lower : Body : Upper
+          (1, 1) :   1.0 :  1.0 :  None
+          (1, 2) :   1.0 :  1.0 :  None
+          (1, 3) :   1.0 :  1.0 :  None
+          (1, 4) :   1.0 :  1.0 :  None
+          (1, 5) :   1.0 :  1.0 :  None
+          (1, 6) :   1.0 :  1.0 :  None
+          (1, 7) :   1.0 :  1.0 :  None
+          (1, 8) :   1.0 :  1.0 :  None
+          (1, 9) :   1.0 :  1.0 :  None
+         (1, 10) :   1.0 :  1.0 :  None
+         (1, 11) :   1.0 :  1.0 :  None
+         (1, 12) :   1.0 :  1.0 :  None
+         (1, 13) :   1.0 :  1.0 :  None
+         (1, 14) :   1.0 :  1.0 :  None
+         (1, 15) :   1.0 :  1.0 :  None
+         (1, 16) :   1.0 :  1.0 :  None
+         (1, 17) :   1.0 :  1.0 :  None
+         (1, 18) :   1.0 :  1.0 :  None
+          (2, 1) :   1.0 :  1.0 :  None
+          (2, 2) :   1.0 :  1.0 :  None
+          (2, 3) :   1.0 :  1.0 :  None
+          (2, 4) :   1.0 :  1.0 :  None
+          (2, 5) :   1.0 :  1.0 :  None
+          (2, 6) :   1.0 :  1.0 :  None
+          (2, 7) :   1.0 :  1.0 :  None
+          (2, 8) :   1.0 :  1.0 :  None
+          (2, 9) :   1.0 :  1.0 :  None
+         (2, 10) :   1.0 :  1.0 :  None
+         (2, 11) :   1.0 :  1.0 :  None
+         (2, 12) :   1.0 :  1.0 :  None
+         (2, 13) :   1.0 :  1.0 :  None
+         (2, 14) :   1.0 :  1.0 :  None
+         (2, 15) :   1.0 :  2.0 :  None
+         (2, 16) :   1.0 :  1.0 :  None
+         (2, 17) :   1.0 :  2.0 :  None
+         (2, 18) :   1.0 :  2.0 :  None
+          (3, 1) :   1.0 :  1.0 :  None
+          (3, 2) :   1.0 :  1.0 :  None
+          (3, 3) :   1.0 :  1.0 :  None
+          (3, 4) :   1.0 :  1.0 :  None
+          (3, 5) :   1.0 :  1.0 :  None
+          (3, 6) :   1.0 :  1.0 :  None
+          (3, 7) :   1.0 :  1.0 :  None
+          (3, 8) :   1.0 :  2.0 :  None
+          (3, 9) :   1.0 :  1.0 :  None
+         (3, 10) :   1.0 :  1.0 :  None
+         (3, 11) :   1.0 :  1.0 :  None
+         (3, 12) :   1.0 :  1.0 :  None
+         (3, 13) :   1.0 :  1.0 :  None
+         (3, 14) :   1.0 :  1.0 :  None
+         (3, 15) :   1.0 :  2.0 :  None
+         (3, 16) :   1.0 :  1.0 :  None
+         (3, 17) :   1.0 :  1.0 :  None
+         (3, 18) :   1.0 :  1.0 :  None
+          (4, 1) :   1.0 :  1.0 :  None
+          (4, 2) :   1.0 :  1.0 :  None
+          (4, 3) :   1.0 :  1.0 :  None
+          (4, 4) :   1.0 :  1.0 :  None
+          (4, 5) :   1.0 :  1.0 :  None
+          (4, 6) :   1.0 :  1.0 :  None
+          (4, 7) :   1.0 :  1.0 :  None
+          (4, 8) :   1.0 :  1.0 :  None
+          (4, 9) :   1.0 :  1.0 :  None
+         (4, 10) :   1.0 :  1.0 :  None
+         (4, 11) :   1.0 :  1.0 :  None
+         (4, 12) :   1.0 :  1.0 :  None
+         (4, 13) :   1.0 :  1.0 :  None
+         (4, 14) :   1.0 :  1.0 :  None
+         (4, 15) :   1.0 :  2.0 :  None
+         (4, 16) :   1.0 :  1.0 :  None
+         (4, 17) :   1.0 :  1.0 :  None
+         (4, 18) :   1.0 :  1.0 :  None
+          (5, 1) :   1.0 :  1.0 :  None
+          (5, 2) :   1.0 :  1.0 :  None
+          (5, 3) :   1.0 :  1.0 :  None
+          (5, 4) :   1.0 :  1.0 :  None
+          (5, 5) :   1.0 :  1.0 :  None
+          (5, 6) :   1.0 :  1.0 :  None
+          (5, 7) :   1.0 :  1.0 :  None
+          (5, 8) :   1.0 :  1.0 :  None
+          (5, 9) :   1.0 :  2.0 :  None
+         (5, 10) :   1.0 :  1.0 :  None
+         (5, 11) :   1.0 :  1.0 :  None
+         (5, 12) :   1.0 :  1.0 :  None
+         (5, 13) :   1.0 :  2.0 :  None
+         (5, 14) :   1.0 :  1.0 :  None
+         (5, 15) :   1.0 :  1.0 :  None
+         (5, 16) :   1.0 :  1.0 :  None
+         (5, 17) :   1.0 :  1.0 :  None
+         (5, 18) :   1.0 :  1.0 :  None
+          (6, 1) :   1.0 :  1.0 :  None
+          (6, 2) :   1.0 :  1.0 :  None
+          (6, 3) :   1.0 :  1.0 :  None
+          (6, 4) :   1.0 :  1.0 :  None
+          (6, 5) :   1.0 :  1.0 :  None
+          (6, 6) :   1.0 :  1.0 :  None
+          (6, 7) :   1.0 :  1.0 :  None
+          (6, 8) :   1.0 :  1.0 :  None
+          (6, 9) :   1.0 :  2.0 :  None
+         (6, 10) :   1.0 :  1.0 :  None
+         (6, 11) :   1.0 :  1.0 :  None
+         (6, 12) :   1.0 :  1.0 :  None
+         (6, 13) :   1.0 :  1.0 :  None
+         (6, 14) :   1.0 :  1.0 :  None
+         (6, 15) :   1.0 :  1.0 :  None
+         (6, 16) :   1.0 :  1.0 :  None
+         (6, 17) :   1.0 :  1.0 :  None
+         (6, 18) :   1.0 :  1.0 :  None
+          (7, 1) :   1.0 :  1.0 :  None
+          (7, 2) :   1.0 :  1.0 :  None
+          (7, 3) :   1.0 :  1.0 :  None
+          (7, 4) :   1.0 :  1.0 :  None
+          (7, 5) :   1.0 :  1.0 :  None
+          (7, 6) :   1.0 :  1.0 :  None
+          (7, 7) :   1.0 :  1.0 :  None
+          (7, 8) :   1.0 :  1.0 :  None
+          (7, 9) :   1.0 :  1.0 :  None
+         (7, 10) :   1.0 :  1.0 :  None
+         (7, 11) :   1.0 :  1.0 :  None
+         (7, 12) :   1.0 :  1.0 :  None
+         (7, 13) :   1.0 :  2.0 :  None
+         (7, 14) :   1.0 :  1.0 :  None
+         (7, 15) :   1.0 :  1.0 :  None
+         (7, 16) :   1.0 :  1.0 :  None
+         (7, 17) :   1.0 :  1.0 :  None
+         (7, 18) :   1.0 :  1.0 :  None
+          (8, 1) :   1.0 :  1.0 :  None
+          (8, 2) :   1.0 :  1.0 :  None
+          (8, 3) :   1.0 :  1.0 :  None
+          (8, 4) :   1.0 :  1.0 :  None
+          (8, 5) :   1.0 :  1.0 :  None
+          (8, 6) :   1.0 :  1.0 :  None
+          (8, 7) :   1.0 :  1.0 :  None
+          (8, 8) :   1.0 :  1.0 :  None
+          (8, 9) :   1.0 :  1.0 :  None
+         (8, 10) :   1.0 :  1.0 :  None
+         (8, 11) :   1.0 :  1.0 :  None
+         (8, 12) :   1.0 :  1.0 :  None
+         (8, 13) :   1.0 :  1.0 :  None
+         (8, 14) :   1.0 :  1.0 :  None
+         (8, 15) :   1.0 :  1.0 :  None
+         (8, 16) :   1.0 :  1.0 :  None
+         (8, 17) :   1.0 :  1.0 :  None
+         (8, 18) :   1.0 :  1.0 :  None
+          (9, 1) :   1.0 :  1.0 :  None
+          (9, 2) :   1.0 :  1.0 :  None
+          (9, 3) :   1.0 :  1.0 :  None
+          (9, 4) :   1.0 :  1.0 :  None
+          (9, 5) :   1.0 :  1.0 :  None
+          (9, 6) :   1.0 :  1.0 :  None
+          (9, 7) :   1.0 :  1.0 :  None
+          (9, 8) :   1.0 :  1.0 :  None
+          (9, 9) :   1.0 :  1.0 :  None
+         (9, 10) :   1.0 :  1.0 :  None
+         (9, 11) :   1.0 :  1.0 :  None
+         (9, 12) :   1.0 :  1.0 :  None
+         (9, 13) :   1.0 :  1.0 :  None
+         (9, 14) :   1.0 :  1.0 :  None
+         (9, 15) :   1.0 :  1.0 :  None
+         (9, 16) :   1.0 :  1.0 :  None
+         (9, 17) :   1.0 :  1.0 :  None
+         (9, 18) :   1.0 :  1.0 :  None
+         (10, 1) :   1.0 :  1.0 :  None
+         (10, 2) :   1.0 :  1.0 :  None
+         (10, 3) :   1.0 :  1.0 :  None
+         (10, 4) :   1.0 :  1.0 :  None
+         (10, 5) :   1.0 :  1.0 :  None
+         (10, 6) :   1.0 :  1.0 :  None
+         (10, 7) :   1.0 :  1.0 :  None
+         (10, 8) :   1.0 :  1.0 :  None
+         (10, 9) :   1.0 :  1.0 :  None
+        (10, 10) :   1.0 :  1.0 :  None
+        (10, 11) :   1.0 :  1.0 :  None
+        (10, 12) :   1.0 :  1.0 :  None
+        (10, 13) :   1.0 :  1.0 :  None
+        (10, 14) :   1.0 :  1.0 :  None
+        (10, 15) :   1.0 :  1.0 :  None
+        (10, 16) :   1.0 :  1.0 :  None
+        (10, 17) :   1.0 :  1.0 :  None
+        (10, 18) :   1.0 :  1.0 :  None
+         (11, 1) :   1.0 :  1.0 :  None
+         (11, 2) :   1.0 :  1.0 :  None
+         (11, 3) :   1.0 :  1.0 :  None
+         (11, 4) :   1.0 :  1.0 :  None
+         (11, 5) :   1.0 :  1.0 :  None
+         (11, 6) :   1.0 :  1.0 :  None
+         (11, 7) :   1.0 :  1.0 :  None
+         (11, 8) :   1.0 :  1.0 :  None
+         (11, 9) :   1.0 :  1.0 :  None
+        (11, 10) :   1.0 :  1.0 :  None
+        (11, 11) :   1.0 :  1.0 :  None
+        (11, 12) :   1.0 :  1.0 :  None
+        (11, 13) :   1.0 :  1.0 :  None
+        (11, 14) :   1.0 :  1.0 :  None
+        (11, 15) :   1.0 :  1.0 :  None
+        (11, 16) :   1.0 :  2.0 :  None
+        (11, 17) :   1.0 :  1.0 :  None
+        (11, 18) :   1.0 :  2.0 :  None
+         (12, 1) :   1.0 :  1.0 :  None
+         (12, 2) :   1.0 :  1.0 :  None
+         (12, 3) :   1.0 :  1.0 :  None
+         (12, 4) :   1.0 :  1.0 :  None
+         (12, 5) :   1.0 :  1.0 :  None
+         (12, 6) :   1.0 :  1.0 :  None
+         (12, 7) :   1.0 :  1.0 :  None
+         (12, 8) :   1.0 :  1.0 :  None
+         (12, 9) :   1.0 :  1.0 :  None
+        (12, 10) :   1.0 :  1.0 :  None
+        (12, 11) :   1.0 :  1.0 :  None
+        (12, 12) :   1.0 :  1.0 :  None
+        (12, 13) :   1.0 :  1.0 :  None
+        (12, 14) :   1.0 :  1.0 :  None
+        (12, 15) :   1.0 :  1.0 :  None
+        (12, 16) :   1.0 :  1.0 :  None
+        (12, 17) :   1.0 :  1.0 :  None
+        (12, 18) :   1.0 :  1.0 :  None
+         (13, 1) :   1.0 :  1.0 :  None
+         (13, 2) :   1.0 :  1.0 :  None
+         (13, 3) :   1.0 :  1.0 :  None
+         (13, 4) :   1.0 :  1.0 :  None
+         (13, 5) :   1.0 :  1.0 :  None
+         (13, 6) :   1.0 :  1.0 :  None
+         (13, 7) :   1.0 :  1.0 :  None
+         (13, 8) :   1.0 :  1.0 :  None
+         (13, 9) :   1.0 :  1.0 :  None
+        (13, 10) :   1.0 :  1.0 :  None
+        (13, 11) :   1.0 :  1.0 :  None
+        (13, 12) :   1.0 :  1.0 :  None
+        (13, 13) :   1.0 :  1.0 :  None
+        (13, 14) :   1.0 :  1.0 :  None
+        (13, 15) :   1.0 :  1.0 :  None
+        (13, 16) :   1.0 :  1.0 :  None
+        (13, 17) :   1.0 :  1.0 :  None
+        (13, 18) :   1.0 :  1.0 :  None
+         (14, 1) :   1.0 :  1.0 :  None
+         (14, 2) :   1.0 :  1.0 :  None
+         (14, 3) :   1.0 :  1.0 :  None
+         (14, 4) :   1.0 :  1.0 :  None
+         (14, 5) :   1.0 :  1.0 :  None
+         (14, 6) :   1.0 :  1.0 :  None
+         (14, 7) :   1.0 :  1.0 :  None
+         (14, 8) :   1.0 :  1.0 :  None
+         (14, 9) :   1.0 :  1.0 :  None
+        (14, 10) :   1.0 :  1.0 :  None
+        (14, 11) :   1.0 :  1.0 :  None
+        (14, 12) :   1.0 :  1.0 :  None
+        (14, 13) :   1.0 :  1.0 :  None
+        (14, 14) :   1.0 :  1.0 :  None
+        (14, 15) :   1.0 :  1.0 :  None
+        (14, 16) :   1.0 :  1.0 :  None
+        (14, 17) :   1.0 :  1.0 :  None
+        (14, 18) :   1.0 :  1.0 :  None
+         (15, 1) :   1.0 :  1.0 :  None
+         (15, 2) :   1.0 :  1.0 :  None
+         (15, 3) :   1.0 :  1.0 :  None
+         (15, 4) :   1.0 :  1.0 :  None
+         (15, 5) :   1.0 :  1.0 :  None
+         (15, 6) :   1.0 :  1.0 :  None
+         (15, 7) :   1.0 :  1.0 :  None
+         (15, 8) :   1.0 :  1.0 :  None
+         (15, 9) :   1.0 :  1.0 :  None
+        (15, 10) :   1.0 :  1.0 :  None
+        (15, 11) :   1.0 :  1.0 :  None
+        (15, 12) :   1.0 :  1.0 :  None
+        (15, 13) :   1.0 :  1.0 :  None
+        (15, 14) :   1.0 :  1.0 :  None
+        (15, 15) :   1.0 :  1.0 :  None
+        (15, 16) :   1.0 :  1.0 :  None
+        (15, 17) :   1.0 :  1.0 :  None
+        (15, 18) :   1.0 :  1.0 :  None
+         (16, 1) :   1.0 :  1.0 :  None
+         (16, 2) :   1.0 :  1.0 :  None
+         (16, 3) :   1.0 :  1.0 :  None
+         (16, 4) :   1.0 :  1.0 :  None
+         (16, 5) :   1.0 :  1.0 :  None
+         (16, 6) :   1.0 :  1.0 :  None
+         (16, 7) :   1.0 :  1.0 :  None
+         (16, 8) :   1.0 :  1.0 :  None
+         (16, 9) :   1.0 :  1.0 :  None
+        (16, 10) :   1.0 :  1.0 :  None
+        (16, 11) :   1.0 :  1.0 :  None
+        (16, 12) :   1.0 :  1.0 :  None
+        (16, 13) :   1.0 :  1.0 :  None
+        (16, 14) :   1.0 :  1.0 :  None
+        (16, 15) :   1.0 :  1.0 :  None
+        (16, 16) :   1.0 :  1.0 :  None
+        (16, 17) :   1.0 :  1.0 :  None
+        (16, 18) :   1.0 :  1.0 :  None
+         (17, 1) :   1.0 :  1.0 :  None
+         (17, 2) :   1.0 :  1.0 :  None
+         (17, 3) :   1.0 :  1.0 :  None
+         (17, 4) :   1.0 :  1.0 :  None
+         (17, 5) :   1.0 :  1.0 :  None
+         (17, 6) :   1.0 :  1.0 :  None
+         (17, 7) :   1.0 :  1.0 :  None
+         (17, 8) :   1.0 :  1.0 :  None
+         (17, 9) :   1.0 :  1.0 :  None
+        (17, 10) :   1.0 :  1.0 :  None
+        (17, 11) :   1.0 :  1.0 :  None
+        (17, 12) :   1.0 :  1.0 :  None
+        (17, 13) :   1.0 :  1.0 :  None
+        (17, 14) :   1.0 :  1.0 :  None
+        (17, 15) :   1.0 :  1.0 :  None
+        (17, 16) :   1.0 :  1.0 :  None
+        (17, 17) :   1.0 :  1.0 :  None
+        (17, 18) :   1.0 :  1.0 :  None
+         (18, 1) :   1.0 :  1.0 :  None
+         (18, 2) :   1.0 :  1.0 :  None
+         (18, 3) :   1.0 :  1.0 :  None
+         (18, 4) :   1.0 :  1.0 :  None
+         (18, 5) :   1.0 :  1.0 :  None
+         (18, 6) :   1.0 :  1.0 :  None
+         (18, 7) :   1.0 :  1.0 :  None
+         (18, 8) :   1.0 :  1.0 :  None
+         (18, 9) :   1.0 :  1.0 :  None
+        (18, 10) :   1.0 :  1.0 :  None
+        (18, 11) :   1.0 :  1.0 :  None
+        (18, 12) :   1.0 :  1.0 :  None
+        (18, 13) :   1.0 :  1.0 :  None
+        (18, 14) :   1.0 :  1.0 :  None
+        (18, 15) :   1.0 :  1.0 :  None
+        (18, 16) :   1.0 :  1.0 :  None
+        (18, 17) :   1.0 :  1.0 :  None
+        (18, 18) :   1.0 :  1.0 :  None
+    width_c : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+    area_c : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+    theta_c : Size=1
+        Key  : Lower : Body : Upper
+        None :   1.0 :  1.0 :   1.0
+    total_area_c : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+    order1_c : Size=14
+        Key : Lower : Body : Upper
+          1 :  None :  0.0 :   0.0
+          2 :  None :  0.0 :   0.0
+          3 :  None :  0.0 :   0.0
+          4 :  None :  0.0 :   0.0
+          5 :  None :  0.0 :   0.0
+          7 :  None :  0.0 :   0.0
+          8 :  None :  0.0 :   0.0
+          9 :  None :  0.0 :   0.0
+         10 :  None : -1.0 :   0.0
+         12 :  None :  0.0 :   0.0
+         13 :  None :  0.0 :   0.0
+         14 :  None :  0.0 :   0.0
+         16 :  None :  0.0 :   0.0
+         17 :  None :  0.0 :   0.0
+    order2_c : Size=14
+        Key : Lower : Body  : Upper
+          1 :  None :   0.0 :   0.0
+          2 :  None :   0.0 :   0.0
+          3 :  None : -18.0 :   0.0
+          4 :  None :   0.0 :   0.0
+          5 :  None :   0.0 :   0.0
+          7 :  None :   0.0 :   0.0
+          8 :  None :  -2.0 :   0.0
+          9 :  None :   0.0 :   0.0
+         10 :  None :  -6.0 :   0.0
+         12 :  None :  -3.0 :   0.0
+         13 :  None :   0.0 :   0.0
+         14 :  None :  -3.0 :   0.0
+         16 :  None :  -4.0 :   0.0
+         17 :  None :   0.0 :   0.0

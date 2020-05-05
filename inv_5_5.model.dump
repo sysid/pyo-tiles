@@ -1,0 +1,721 @@
+13 Set Declarations
+    C : Dim=0, Dimen=1, Size=2, Domain=None, Ordered=False, Bounds=None
+        ['x', 'y']
+    J : Dim=0, Dimen=1, Size=9, Domain=None, Ordered=False, Bounds=(1, 9)
+        [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    K : no overlap cases
+        Dim=0, Dimen=1, Size=2, Domain=None, Ordered=False, Bounds=(False, True)
+        [False, True]
+    delta_index : Dim=0, Dimen=4, Size=324, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    delta_index_index_0 : Dim=0, Dimen=3, Size=162, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    delta_index_index_0_index_0 : Dim=0, Dimen=2, Size=81, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    inside_space_c_index : Dim=0, Dimen=2, Size=18, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    no_overlap1_c_index : Dim=0, Dimen=3, Size=162, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    no_overlap1_c_index_index_0 : Dim=0, Dimen=2, Size=81, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    no_overlap2_c_index : Dim=0, Dimen=3, Size=162, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    no_overlap2_c_index_index_0 : Dim=0, Dimen=2, Size=81, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    no_overlap_c_index : Dim=0, Dimen=2, Size=81, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    p_index : Dim=0, Dimen=2, Size=18, Domain=None, Ordered=False, Bounds=None
+        Virtual
+
+2 RangeSet Declarations
+    A : max square area width
+        Dim=0, Dimen=1, Size=5, Domain=Integers, Ordered=True, Bounds=(1, 5)
+        Virtual
+    I : tile
+        Dim=0, Dimen=1, Size=9, Domain=Integers, Ordered=True, Bounds=(1, 9)
+        Virtual
+
+2 Param Declarations
+    size : Size=9, Index=I, Domain=Any, Default=None, Mutable=False
+        Key : Value
+          1 :     1
+          2 :     1
+          3 :     1
+          4 :     1
+          5 :     2
+          6 :     2
+          7 :     2
+          8 :     3
+          9 :     3
+    size_space : Size=5, Index=A, Domain=Any, Default=None, Mutable=False
+        Key : Value
+          1 :     1
+          2 :     2
+          3 :     3
+          4 :     4
+          5 :     5
+
+6 Var Declarations
+    a : max area of space we can fill
+        Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :     0 :  25.0 :  None : False : False : NonNegativeReals
+    delta : Size=324, Index=delta_index
+        Key                : Lower : Value : Upper : Fixed : Stale : Domain
+        (1, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 1, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (1, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 2, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (1, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 3, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (1, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 4, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (1, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 5, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (1, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 6, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (1, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 7, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (1, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 8, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (1, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 9, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (1, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (1, 9, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (1, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (2, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (2, 1, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (2, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (2, 2, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (2, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (2, 3, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (2, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (2, 4, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (2, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (2, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (2, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 5, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (2, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (2, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 6, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (2, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (2, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 7, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (2, 8, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (2, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (2, 9, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (2, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (2, 9, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (2, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 1, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (3, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 2, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (3, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 3, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (3, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 4, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (3, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 5, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (3, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 6, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (3, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 7, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (3, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 8, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (3, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 9, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (3, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (3, 9, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (4, 1, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (4, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (4, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (4, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 2, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (4, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (4, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 3, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (4, 4, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (4, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (4, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (4, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 5, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (4, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (4, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 6, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (4, 7, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (4, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (4, 8, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (4, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (4, 9, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (4, 9, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (4, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (4, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (5, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (5, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 1, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (5, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (5, 2, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (5, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (5, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (5, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 3, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (5, 4, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (5, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (5, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (5, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 5, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (5, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (5, 6, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (5, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (5, 7, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (5, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (5, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (5, 8, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (5, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (5, 9, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (5, 9, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (5, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (5, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (6, 1, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (6, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 1, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (6, 2, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (6, 2, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (6, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (6, 3, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (6, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (6, 4, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (6, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (6, 5, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (6, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (6, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (6, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 6, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (6, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (6, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 7, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (6, 8, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (6, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (6, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (6, 9, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (6, 9, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (6, 9, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (6, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (7, 1, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (7, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (7, 2, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (7, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (7, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (7, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 3, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (7, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (7, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 4, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (7, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (7, 5, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (7, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (7, 6, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (7, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (7, 7, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (7, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (7, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (7, 8, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (7, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (7, 9, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (7, 9, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (7, 9, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (8, 1, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (8, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (8, 2, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (8, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (8, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (8, 3, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 3, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (8, 4, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (8, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 4, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (8, 5, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (8, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 5, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (8, 6, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (8, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 6, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (8, 7, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (8, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 7, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (8, 8, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (8, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (8, 8, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (8, 9, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (8, 9, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (8, 9, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (8, 9, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (9, 1, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (9, 1, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 1, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 1, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (9, 2, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (9, 2, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 2, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 2, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (9, 3, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (9, 3, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (9, 3, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 3, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (9, 4, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (9, 4, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 4, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 4, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (9, 5, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (9, 5, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 5, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 5, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (9, 6, False, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+        (9, 6, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 6, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 6, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (9, 7, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (9, 7, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 7, True, 'x') :     0 :   1.0 :     1 : False : False : Boolean
+         (9, 7, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+        (9, 8, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (9, 8, False, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 8, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 8, True, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+        (9, 9, False, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+        (9, 9, False, 'y') :     0 :   1.0 :     1 : False : False : Boolean
+         (9, 9, True, 'x') :     0 :   0.0 :     1 : False : False : Boolean
+         (9, 9, True, 'y') :     0 :   0.0 :     1 : False : False : Boolean
+    p : position per y,y
+        Size=18, Index=p_index
+        Key      : Lower : Value : Upper : Fixed : Stale : Domain
+        (1, 'x') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (1, 'y') :     0 :   4.0 :  None : False : False : NonNegativeReals
+        (2, 'x') :     0 :   4.0 :  None : False : False : NonNegativeReals
+        (2, 'y') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (3, 'x') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (3, 'y') :     0 :   3.0 :  None : False : False : NonNegativeReals
+        (4, 'x') :     0 :   3.0 :  None : False : False : NonNegativeReals
+        (4, 'y') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (5, 'x') :     0 :   3.0 :  None : False : False : NonNegativeReals
+        (5, 'y') :     0 :   3.0 :  None : False : False : NonNegativeReals
+        (6, 'x') :     0 :   3.0 :  None : False : False : NonNegativeReals
+        (6, 'y') :     0 :   1.0 :  None : False : False : NonNegativeReals
+        (7, 'x') :     0 :   1.0 :  None : False : False : NonNegativeReals
+        (7, 'y') :     0 :   3.0 :  None : False : False : NonNegativeReals
+        (8, 'x') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (8, 'y') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (9, 'x') :     0 :   0.0 :  None : False : False : NonNegativeReals
+        (9, 'y') :     0 :   0.0 :  None : False : False : NonNegativeReals
+    t : selector for tile i
+        Size=9, Index=I
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+          1 :     0 :   1.0 :     1 : False : False : Boolean
+          2 :     0 :   1.0 :     1 : False : False : Boolean
+          3 :     0 :   1.0 :     1 : False : False : Boolean
+          4 :     0 :   1.0 :     1 : False : False : Boolean
+          5 :     0 :   1.0 :     1 : False : False : Boolean
+          6 :     0 :   1.0 :     1 : False : False : Boolean
+          7 :     0 :   1.0 :     1 : False : False : Boolean
+          8 :     0 :   1.0 :     1 : False : False : Boolean
+          9 :     0 :   0.0 :     1 : False : False : Boolean
+    theta : selector for a
+        Size=5, Index=A
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+          1 :     0 :   0.0 :     1 : False : False : Boolean
+          2 :     0 :   0.0 :     1 : False : False : Boolean
+          3 :     0 :   0.0 :     1 : False : False : Boolean
+          4 :     0 :   0.0 :     1 : False : False : Boolean
+          5 :     0 :   1.0 :     1 : False : False : Boolean
+    w : max width of space we can fill
+        Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :     0 :   5.0 :  None : False : False : NonNegativeReals
+
+1 Objective Declarations
+    objective : Size=1, Index=None, Active=True
+        Key  : Active : Sense    : Expression
+        None :   True : maximize :          w
+
+10 Constraint Declarations
+    area_c : Size=1, Index=None, Active=True
+        Key  : Lower : Body                                                               : Upper : Active
+        None :   0.0 : theta[1] + 4*theta[2] + 9*theta[3] + 16*theta[4] + 25*theta[5] - a :   0.0 :   True
+    inside_space_c : Size=18, Index=inside_space_c_index, Active=True
+        Key      : Lower : Body           : Upper : Active
+        (1, 'x') :  -Inf : p[1,x] + 1 - w :   0.0 :   True
+        (1, 'y') :  -Inf : p[1,y] + 1 - w :   0.0 :   True
+        (2, 'x') :  -Inf : p[2,x] + 1 - w :   0.0 :   True
+        (2, 'y') :  -Inf : p[2,y] + 1 - w :   0.0 :   True
+        (3, 'x') :  -Inf : p[3,x] + 1 - w :   0.0 :   True
+        (3, 'y') :  -Inf : p[3,y] + 1 - w :   0.0 :   True
+        (4, 'x') :  -Inf : p[4,x] + 1 - w :   0.0 :   True
+        (4, 'y') :  -Inf : p[4,y] + 1 - w :   0.0 :   True
+        (5, 'x') :  -Inf : p[5,x] + 2 - w :   0.0 :   True
+        (5, 'y') :  -Inf : p[5,y] + 2 - w :   0.0 :   True
+        (6, 'x') :  -Inf : p[6,x] + 2 - w :   0.0 :   True
+        (6, 'y') :  -Inf : p[6,y] + 2 - w :   0.0 :   True
+        (7, 'x') :  -Inf : p[7,x] + 2 - w :   0.0 :   True
+        (7, 'y') :  -Inf : p[7,y] + 2 - w :   0.0 :   True
+        (8, 'x') :  -Inf : p[8,x] + 3 - w :   0.0 :   True
+        (8, 'y') :  -Inf : p[8,y] + 3 - w :   0.0 :   True
+        (9, 'x') :  -Inf : p[9,x] + 3 - w :   0.0 :   True
+        (9, 'y') :  -Inf : p[9,y] + 3 - w :   0.0 :   True
+    no_overlap1_c : Size=72, Index=no_overlap1_c_index, Active=True
+        Key         : Lower : Body                                                                          : Upper : Active
+        (1, 2, 'x') :  -Inf : p[1,x] + 1 - 5*(1 - delta[1,2,True,x]) - 5*(1 - t[1]) - 5*(1 - t[2]) - p[2,x] :   0.0 :   True
+        (1, 2, 'y') :  -Inf : p[1,y] + 1 - 5*(1 - delta[1,2,True,y]) - 5*(1 - t[1]) - 5*(1 - t[2]) - p[2,y] :   0.0 :   True
+        (1, 3, 'x') :  -Inf : p[1,x] + 1 - 5*(1 - delta[1,3,True,x]) - 5*(1 - t[1]) - 5*(1 - t[3]) - p[3,x] :   0.0 :   True
+        (1, 3, 'y') :  -Inf : p[1,y] + 1 - 5*(1 - delta[1,3,True,y]) - 5*(1 - t[1]) - 5*(1 - t[3]) - p[3,y] :   0.0 :   True
+        (1, 4, 'x') :  -Inf : p[1,x] + 1 - 5*(1 - delta[1,4,True,x]) - 5*(1 - t[1]) - 5*(1 - t[4]) - p[4,x] :   0.0 :   True
+        (1, 4, 'y') :  -Inf : p[1,y] + 1 - 5*(1 - delta[1,4,True,y]) - 5*(1 - t[1]) - 5*(1 - t[4]) - p[4,y] :   0.0 :   True
+        (1, 5, 'x') :  -Inf : p[1,x] + 1 - 5*(1 - delta[1,5,True,x]) - 5*(1 - t[1]) - 5*(1 - t[5]) - p[5,x] :   0.0 :   True
+        (1, 5, 'y') :  -Inf : p[1,y] + 1 - 5*(1 - delta[1,5,True,y]) - 5*(1 - t[1]) - 5*(1 - t[5]) - p[5,y] :   0.0 :   True
+        (1, 6, 'x') :  -Inf : p[1,x] + 1 - 5*(1 - delta[1,6,True,x]) - 5*(1 - t[1]) - 5*(1 - t[6]) - p[6,x] :   0.0 :   True
+        (1, 6, 'y') :  -Inf : p[1,y] + 1 - 5*(1 - delta[1,6,True,y]) - 5*(1 - t[1]) - 5*(1 - t[6]) - p[6,y] :   0.0 :   True
+        (1, 7, 'x') :  -Inf : p[1,x] + 1 - 5*(1 - delta[1,7,True,x]) - 5*(1 - t[1]) - 5*(1 - t[7]) - p[7,x] :   0.0 :   True
+        (1, 7, 'y') :  -Inf : p[1,y] + 1 - 5*(1 - delta[1,7,True,y]) - 5*(1 - t[1]) - 5*(1 - t[7]) - p[7,y] :   0.0 :   True
+        (1, 8, 'x') :  -Inf : p[1,x] + 1 - 5*(1 - delta[1,8,True,x]) - 5*(1 - t[1]) - 5*(1 - t[8]) - p[8,x] :   0.0 :   True
+        (1, 8, 'y') :  -Inf : p[1,y] + 1 - 5*(1 - delta[1,8,True,y]) - 5*(1 - t[1]) - 5*(1 - t[8]) - p[8,y] :   0.0 :   True
+        (1, 9, 'x') :  -Inf : p[1,x] + 1 - 5*(1 - delta[1,9,True,x]) - 5*(1 - t[1]) - 5*(1 - t[9]) - p[9,x] :   0.0 :   True
+        (1, 9, 'y') :  -Inf : p[1,y] + 1 - 5*(1 - delta[1,9,True,y]) - 5*(1 - t[1]) - 5*(1 - t[9]) - p[9,y] :   0.0 :   True
+        (2, 3, 'x') :  -Inf : p[2,x] + 1 - 5*(1 - delta[2,3,True,x]) - 5*(1 - t[2]) - 5*(1 - t[3]) - p[3,x] :   0.0 :   True
+        (2, 3, 'y') :  -Inf : p[2,y] + 1 - 5*(1 - delta[2,3,True,y]) - 5*(1 - t[2]) - 5*(1 - t[3]) - p[3,y] :   0.0 :   True
+        (2, 4, 'x') :  -Inf : p[2,x] + 1 - 5*(1 - delta[2,4,True,x]) - 5*(1 - t[2]) - 5*(1 - t[4]) - p[4,x] :   0.0 :   True
+        (2, 4, 'y') :  -Inf : p[2,y] + 1 - 5*(1 - delta[2,4,True,y]) - 5*(1 - t[2]) - 5*(1 - t[4]) - p[4,y] :   0.0 :   True
+        (2, 5, 'x') :  -Inf : p[2,x] + 1 - 5*(1 - delta[2,5,True,x]) - 5*(1 - t[2]) - 5*(1 - t[5]) - p[5,x] :   0.0 :   True
+        (2, 5, 'y') :  -Inf : p[2,y] + 1 - 5*(1 - delta[2,5,True,y]) - 5*(1 - t[2]) - 5*(1 - t[5]) - p[5,y] :   0.0 :   True
+        (2, 6, 'x') :  -Inf : p[2,x] + 1 - 5*(1 - delta[2,6,True,x]) - 5*(1 - t[2]) - 5*(1 - t[6]) - p[6,x] :   0.0 :   True
+        (2, 6, 'y') :  -Inf : p[2,y] + 1 - 5*(1 - delta[2,6,True,y]) - 5*(1 - t[2]) - 5*(1 - t[6]) - p[6,y] :   0.0 :   True
+        (2, 7, 'x') :  -Inf : p[2,x] + 1 - 5*(1 - delta[2,7,True,x]) - 5*(1 - t[2]) - 5*(1 - t[7]) - p[7,x] :   0.0 :   True
+        (2, 7, 'y') :  -Inf : p[2,y] + 1 - 5*(1 - delta[2,7,True,y]) - 5*(1 - t[2]) - 5*(1 - t[7]) - p[7,y] :   0.0 :   True
+        (2, 8, 'x') :  -Inf : p[2,x] + 1 - 5*(1 - delta[2,8,True,x]) - 5*(1 - t[2]) - 5*(1 - t[8]) - p[8,x] :   0.0 :   True
+        (2, 8, 'y') :  -Inf : p[2,y] + 1 - 5*(1 - delta[2,8,True,y]) - 5*(1 - t[2]) - 5*(1 - t[8]) - p[8,y] :   0.0 :   True
+        (2, 9, 'x') :  -Inf : p[2,x] + 1 - 5*(1 - delta[2,9,True,x]) - 5*(1 - t[2]) - 5*(1 - t[9]) - p[9,x] :   0.0 :   True
+        (2, 9, 'y') :  -Inf : p[2,y] + 1 - 5*(1 - delta[2,9,True,y]) - 5*(1 - t[2]) - 5*(1 - t[9]) - p[9,y] :   0.0 :   True
+        (3, 4, 'x') :  -Inf : p[3,x] + 1 - 5*(1 - delta[3,4,True,x]) - 5*(1 - t[3]) - 5*(1 - t[4]) - p[4,x] :   0.0 :   True
+        (3, 4, 'y') :  -Inf : p[3,y] + 1 - 5*(1 - delta[3,4,True,y]) - 5*(1 - t[3]) - 5*(1 - t[4]) - p[4,y] :   0.0 :   True
+        (3, 5, 'x') :  -Inf : p[3,x] + 1 - 5*(1 - delta[3,5,True,x]) - 5*(1 - t[3]) - 5*(1 - t[5]) - p[5,x] :   0.0 :   True
+        (3, 5, 'y') :  -Inf : p[3,y] + 1 - 5*(1 - delta[3,5,True,y]) - 5*(1 - t[3]) - 5*(1 - t[5]) - p[5,y] :   0.0 :   True
+        (3, 6, 'x') :  -Inf : p[3,x] + 1 - 5*(1 - delta[3,6,True,x]) - 5*(1 - t[3]) - 5*(1 - t[6]) - p[6,x] :   0.0 :   True
+        (3, 6, 'y') :  -Inf : p[3,y] + 1 - 5*(1 - delta[3,6,True,y]) - 5*(1 - t[3]) - 5*(1 - t[6]) - p[6,y] :   0.0 :   True
+        (3, 7, 'x') :  -Inf : p[3,x] + 1 - 5*(1 - delta[3,7,True,x]) - 5*(1 - t[3]) - 5*(1 - t[7]) - p[7,x] :   0.0 :   True
+        (3, 7, 'y') :  -Inf : p[3,y] + 1 - 5*(1 - delta[3,7,True,y]) - 5*(1 - t[3]) - 5*(1 - t[7]) - p[7,y] :   0.0 :   True
+        (3, 8, 'x') :  -Inf : p[3,x] + 1 - 5*(1 - delta[3,8,True,x]) - 5*(1 - t[3]) - 5*(1 - t[8]) - p[8,x] :   0.0 :   True
+        (3, 8, 'y') :  -Inf : p[3,y] + 1 - 5*(1 - delta[3,8,True,y]) - 5*(1 - t[3]) - 5*(1 - t[8]) - p[8,y] :   0.0 :   True
+        (3, 9, 'x') :  -Inf : p[3,x] + 1 - 5*(1 - delta[3,9,True,x]) - 5*(1 - t[3]) - 5*(1 - t[9]) - p[9,x] :   0.0 :   True
+        (3, 9, 'y') :  -Inf : p[3,y] + 1 - 5*(1 - delta[3,9,True,y]) - 5*(1 - t[3]) - 5*(1 - t[9]) - p[9,y] :   0.0 :   True
+        (4, 5, 'x') :  -Inf : p[4,x] + 1 - 5*(1 - delta[4,5,True,x]) - 5*(1 - t[4]) - 5*(1 - t[5]) - p[5,x] :   0.0 :   True
+        (4, 5, 'y') :  -Inf : p[4,y] + 1 - 5*(1 - delta[4,5,True,y]) - 5*(1 - t[4]) - 5*(1 - t[5]) - p[5,y] :   0.0 :   True
+        (4, 6, 'x') :  -Inf : p[4,x] + 1 - 5*(1 - delta[4,6,True,x]) - 5*(1 - t[4]) - 5*(1 - t[6]) - p[6,x] :   0.0 :   True
+        (4, 6, 'y') :  -Inf : p[4,y] + 1 - 5*(1 - delta[4,6,True,y]) - 5*(1 - t[4]) - 5*(1 - t[6]) - p[6,y] :   0.0 :   True
+        (4, 7, 'x') :  -Inf : p[4,x] + 1 - 5*(1 - delta[4,7,True,x]) - 5*(1 - t[4]) - 5*(1 - t[7]) - p[7,x] :   0.0 :   True
+        (4, 7, 'y') :  -Inf : p[4,y] + 1 - 5*(1 - delta[4,7,True,y]) - 5*(1 - t[4]) - 5*(1 - t[7]) - p[7,y] :   0.0 :   True
+        (4, 8, 'x') :  -Inf : p[4,x] + 1 - 5*(1 - delta[4,8,True,x]) - 5*(1 - t[4]) - 5*(1 - t[8]) - p[8,x] :   0.0 :   True
+        (4, 8, 'y') :  -Inf : p[4,y] + 1 - 5*(1 - delta[4,8,True,y]) - 5*(1 - t[4]) - 5*(1 - t[8]) - p[8,y] :   0.0 :   True
+        (4, 9, 'x') :  -Inf : p[4,x] + 1 - 5*(1 - delta[4,9,True,x]) - 5*(1 - t[4]) - 5*(1 - t[9]) - p[9,x] :   0.0 :   True
+        (4, 9, 'y') :  -Inf : p[4,y] + 1 - 5*(1 - delta[4,9,True,y]) - 5*(1 - t[4]) - 5*(1 - t[9]) - p[9,y] :   0.0 :   True
+        (5, 6, 'x') :  -Inf : p[5,x] + 2 - 5*(1 - delta[5,6,True,x]) - 5*(1 - t[5]) - 5*(1 - t[6]) - p[6,x] :   0.0 :   True
+        (5, 6, 'y') :  -Inf : p[5,y] + 2 - 5*(1 - delta[5,6,True,y]) - 5*(1 - t[5]) - 5*(1 - t[6]) - p[6,y] :   0.0 :   True
+        (5, 7, 'x') :  -Inf : p[5,x] + 2 - 5*(1 - delta[5,7,True,x]) - 5*(1 - t[5]) - 5*(1 - t[7]) - p[7,x] :   0.0 :   True
+        (5, 7, 'y') :  -Inf : p[5,y] + 2 - 5*(1 - delta[5,7,True,y]) - 5*(1 - t[5]) - 5*(1 - t[7]) - p[7,y] :   0.0 :   True
+        (5, 8, 'x') :  -Inf : p[5,x] + 2 - 5*(1 - delta[5,8,True,x]) - 5*(1 - t[5]) - 5*(1 - t[8]) - p[8,x] :   0.0 :   True
+        (5, 8, 'y') :  -Inf : p[5,y] + 2 - 5*(1 - delta[5,8,True,y]) - 5*(1 - t[5]) - 5*(1 - t[8]) - p[8,y] :   0.0 :   True
+        (5, 9, 'x') :  -Inf : p[5,x] + 2 - 5*(1 - delta[5,9,True,x]) - 5*(1 - t[5]) - 5*(1 - t[9]) - p[9,x] :   0.0 :   True
+        (5, 9, 'y') :  -Inf : p[5,y] + 2 - 5*(1 - delta[5,9,True,y]) - 5*(1 - t[5]) - 5*(1 - t[9]) - p[9,y] :   0.0 :   True
+        (6, 7, 'x') :  -Inf : p[6,x] + 2 - 5*(1 - delta[6,7,True,x]) - 5*(1 - t[6]) - 5*(1 - t[7]) - p[7,x] :   0.0 :   True
+        (6, 7, 'y') :  -Inf : p[6,y] + 2 - 5*(1 - delta[6,7,True,y]) - 5*(1 - t[6]) - 5*(1 - t[7]) - p[7,y] :   0.0 :   True
+        (6, 8, 'x') :  -Inf : p[6,x] + 2 - 5*(1 - delta[6,8,True,x]) - 5*(1 - t[6]) - 5*(1 - t[8]) - p[8,x] :   0.0 :   True
+        (6, 8, 'y') :  -Inf : p[6,y] + 2 - 5*(1 - delta[6,8,True,y]) - 5*(1 - t[6]) - 5*(1 - t[8]) - p[8,y] :   0.0 :   True
+        (6, 9, 'x') :  -Inf : p[6,x] + 2 - 5*(1 - delta[6,9,True,x]) - 5*(1 - t[6]) - 5*(1 - t[9]) - p[9,x] :   0.0 :   True
+        (6, 9, 'y') :  -Inf : p[6,y] + 2 - 5*(1 - delta[6,9,True,y]) - 5*(1 - t[6]) - 5*(1 - t[9]) - p[9,y] :   0.0 :   True
+        (7, 8, 'x') :  -Inf : p[7,x] + 2 - 5*(1 - delta[7,8,True,x]) - 5*(1 - t[7]) - 5*(1 - t[8]) - p[8,x] :   0.0 :   True
+        (7, 8, 'y') :  -Inf : p[7,y] + 2 - 5*(1 - delta[7,8,True,y]) - 5*(1 - t[7]) - 5*(1 - t[8]) - p[8,y] :   0.0 :   True
+        (7, 9, 'x') :  -Inf : p[7,x] + 2 - 5*(1 - delta[7,9,True,x]) - 5*(1 - t[7]) - 5*(1 - t[9]) - p[9,x] :   0.0 :   True
+        (7, 9, 'y') :  -Inf : p[7,y] + 2 - 5*(1 - delta[7,9,True,y]) - 5*(1 - t[7]) - 5*(1 - t[9]) - p[9,y] :   0.0 :   True
+        (8, 9, 'x') :  -Inf : p[8,x] + 3 - 5*(1 - delta[8,9,True,x]) - 5*(1 - t[8]) - 5*(1 - t[9]) - p[9,x] :   0.0 :   True
+        (8, 9, 'y') :  -Inf : p[8,y] + 3 - 5*(1 - delta[8,9,True,y]) - 5*(1 - t[8]) - 5*(1 - t[9]) - p[9,y] :   0.0 :   True
+    no_overlap2_c : Size=72, Index=no_overlap2_c_index, Active=True
+        Key         : Lower : Body                                                                             : Upper : Active
+        (1, 2, 'x') :  -Inf : p[2,x] + 1 - (p[1,x] + 5*(1 - delta[1,2,False,x]) + 5*(1 - t[1]) + 5*(1 - t[2])) :   0.0 :   True
+        (1, 2, 'y') :  -Inf : p[2,y] + 1 - (p[1,y] + 5*(1 - delta[1,2,False,y]) + 5*(1 - t[1]) + 5*(1 - t[2])) :   0.0 :   True
+        (1, 3, 'x') :  -Inf : p[3,x] + 1 - (p[1,x] + 5*(1 - delta[1,3,False,x]) + 5*(1 - t[1]) + 5*(1 - t[3])) :   0.0 :   True
+        (1, 3, 'y') :  -Inf : p[3,y] + 1 - (p[1,y] + 5*(1 - delta[1,3,False,y]) + 5*(1 - t[1]) + 5*(1 - t[3])) :   0.0 :   True
+        (1, 4, 'x') :  -Inf : p[4,x] + 1 - (p[1,x] + 5*(1 - delta[1,4,False,x]) + 5*(1 - t[1]) + 5*(1 - t[4])) :   0.0 :   True
+        (1, 4, 'y') :  -Inf : p[4,y] + 1 - (p[1,y] + 5*(1 - delta[1,4,False,y]) + 5*(1 - t[1]) + 5*(1 - t[4])) :   0.0 :   True
+        (1, 5, 'x') :  -Inf : p[5,x] + 2 - (p[1,x] + 5*(1 - delta[1,5,False,x]) + 5*(1 - t[1]) + 5*(1 - t[5])) :   0.0 :   True
+        (1, 5, 'y') :  -Inf : p[5,y] + 2 - (p[1,y] + 5*(1 - delta[1,5,False,y]) + 5*(1 - t[1]) + 5*(1 - t[5])) :   0.0 :   True
+        (1, 6, 'x') :  -Inf : p[6,x] + 2 - (p[1,x] + 5*(1 - delta[1,6,False,x]) + 5*(1 - t[1]) + 5*(1 - t[6])) :   0.0 :   True
+        (1, 6, 'y') :  -Inf : p[6,y] + 2 - (p[1,y] + 5*(1 - delta[1,6,False,y]) + 5*(1 - t[1]) + 5*(1 - t[6])) :   0.0 :   True
+        (1, 7, 'x') :  -Inf : p[7,x] + 2 - (p[1,x] + 5*(1 - delta[1,7,False,x]) + 5*(1 - t[1]) + 5*(1 - t[7])) :   0.0 :   True
+        (1, 7, 'y') :  -Inf : p[7,y] + 2 - (p[1,y] + 5*(1 - delta[1,7,False,y]) + 5*(1 - t[1]) + 5*(1 - t[7])) :   0.0 :   True
+        (1, 8, 'x') :  -Inf : p[8,x] + 3 - (p[1,x] + 5*(1 - delta[1,8,False,x]) + 5*(1 - t[1]) + 5*(1 - t[8])) :   0.0 :   True
+        (1, 8, 'y') :  -Inf : p[8,y] + 3 - (p[1,y] + 5*(1 - delta[1,8,False,y]) + 5*(1 - t[1]) + 5*(1 - t[8])) :   0.0 :   True
+        (1, 9, 'x') :  -Inf : p[9,x] + 3 - (p[1,x] + 5*(1 - delta[1,9,False,x]) + 5*(1 - t[1]) + 5*(1 - t[9])) :   0.0 :   True
+        (1, 9, 'y') :  -Inf : p[9,y] + 3 - (p[1,y] + 5*(1 - delta[1,9,False,y]) + 5*(1 - t[1]) + 5*(1 - t[9])) :   0.0 :   True
+        (2, 3, 'x') :  -Inf : p[3,x] + 1 - (p[2,x] + 5*(1 - delta[2,3,False,x]) + 5*(1 - t[2]) + 5*(1 - t[3])) :   0.0 :   True
+        (2, 3, 'y') :  -Inf : p[3,y] + 1 - (p[2,y] + 5*(1 - delta[2,3,False,y]) + 5*(1 - t[2]) + 5*(1 - t[3])) :   0.0 :   True
+        (2, 4, 'x') :  -Inf : p[4,x] + 1 - (p[2,x] + 5*(1 - delta[2,4,False,x]) + 5*(1 - t[2]) + 5*(1 - t[4])) :   0.0 :   True
+        (2, 4, 'y') :  -Inf : p[4,y] + 1 - (p[2,y] + 5*(1 - delta[2,4,False,y]) + 5*(1 - t[2]) + 5*(1 - t[4])) :   0.0 :   True
+        (2, 5, 'x') :  -Inf : p[5,x] + 2 - (p[2,x] + 5*(1 - delta[2,5,False,x]) + 5*(1 - t[2]) + 5*(1 - t[5])) :   0.0 :   True
+        (2, 5, 'y') :  -Inf : p[5,y] + 2 - (p[2,y] + 5*(1 - delta[2,5,False,y]) + 5*(1 - t[2]) + 5*(1 - t[5])) :   0.0 :   True
+        (2, 6, 'x') :  -Inf : p[6,x] + 2 - (p[2,x] + 5*(1 - delta[2,6,False,x]) + 5*(1 - t[2]) + 5*(1 - t[6])) :   0.0 :   True
+        (2, 6, 'y') :  -Inf : p[6,y] + 2 - (p[2,y] + 5*(1 - delta[2,6,False,y]) + 5*(1 - t[2]) + 5*(1 - t[6])) :   0.0 :   True
+        (2, 7, 'x') :  -Inf : p[7,x] + 2 - (p[2,x] + 5*(1 - delta[2,7,False,x]) + 5*(1 - t[2]) + 5*(1 - t[7])) :   0.0 :   True
+        (2, 7, 'y') :  -Inf : p[7,y] + 2 - (p[2,y] + 5*(1 - delta[2,7,False,y]) + 5*(1 - t[2]) + 5*(1 - t[7])) :   0.0 :   True
+        (2, 8, 'x') :  -Inf : p[8,x] + 3 - (p[2,x] + 5*(1 - delta[2,8,False,x]) + 5*(1 - t[2]) + 5*(1 - t[8])) :   0.0 :   True
+        (2, 8, 'y') :  -Inf : p[8,y] + 3 - (p[2,y] + 5*(1 - delta[2,8,False,y]) + 5*(1 - t[2]) + 5*(1 - t[8])) :   0.0 :   True
+        (2, 9, 'x') :  -Inf : p[9,x] + 3 - (p[2,x] + 5*(1 - delta[2,9,False,x]) + 5*(1 - t[2]) + 5*(1 - t[9])) :   0.0 :   True
+        (2, 9, 'y') :  -Inf : p[9,y] + 3 - (p[2,y] + 5*(1 - delta[2,9,False,y]) + 5*(1 - t[2]) + 5*(1 - t[9])) :   0.0 :   True
+        (3, 4, 'x') :  -Inf : p[4,x] + 1 - (p[3,x] + 5*(1 - delta[3,4,False,x]) + 5*(1 - t[3]) + 5*(1 - t[4])) :   0.0 :   True
+        (3, 4, 'y') :  -Inf : p[4,y] + 1 - (p[3,y] + 5*(1 - delta[3,4,False,y]) + 5*(1 - t[3]) + 5*(1 - t[4])) :   0.0 :   True
+        (3, 5, 'x') :  -Inf : p[5,x] + 2 - (p[3,x] + 5*(1 - delta[3,5,False,x]) + 5*(1 - t[3]) + 5*(1 - t[5])) :   0.0 :   True
+        (3, 5, 'y') :  -Inf : p[5,y] + 2 - (p[3,y] + 5*(1 - delta[3,5,False,y]) + 5*(1 - t[3]) + 5*(1 - t[5])) :   0.0 :   True
+        (3, 6, 'x') :  -Inf : p[6,x] + 2 - (p[3,x] + 5*(1 - delta[3,6,False,x]) + 5*(1 - t[3]) + 5*(1 - t[6])) :   0.0 :   True
+        (3, 6, 'y') :  -Inf : p[6,y] + 2 - (p[3,y] + 5*(1 - delta[3,6,False,y]) + 5*(1 - t[3]) + 5*(1 - t[6])) :   0.0 :   True
+        (3, 7, 'x') :  -Inf : p[7,x] + 2 - (p[3,x] + 5*(1 - delta[3,7,False,x]) + 5*(1 - t[3]) + 5*(1 - t[7])) :   0.0 :   True
+        (3, 7, 'y') :  -Inf : p[7,y] + 2 - (p[3,y] + 5*(1 - delta[3,7,False,y]) + 5*(1 - t[3]) + 5*(1 - t[7])) :   0.0 :   True
+        (3, 8, 'x') :  -Inf : p[8,x] + 3 - (p[3,x] + 5*(1 - delta[3,8,False,x]) + 5*(1 - t[3]) + 5*(1 - t[8])) :   0.0 :   True
+        (3, 8, 'y') :  -Inf : p[8,y] + 3 - (p[3,y] + 5*(1 - delta[3,8,False,y]) + 5*(1 - t[3]) + 5*(1 - t[8])) :   0.0 :   True
+        (3, 9, 'x') :  -Inf : p[9,x] + 3 - (p[3,x] + 5*(1 - delta[3,9,False,x]) + 5*(1 - t[3]) + 5*(1 - t[9])) :   0.0 :   True
+        (3, 9, 'y') :  -Inf : p[9,y] + 3 - (p[3,y] + 5*(1 - delta[3,9,False,y]) + 5*(1 - t[3]) + 5*(1 - t[9])) :   0.0 :   True
+        (4, 5, 'x') :  -Inf : p[5,x] + 2 - (p[4,x] + 5*(1 - delta[4,5,False,x]) + 5*(1 - t[4]) + 5*(1 - t[5])) :   0.0 :   True
+        (4, 5, 'y') :  -Inf : p[5,y] + 2 - (p[4,y] + 5*(1 - delta[4,5,False,y]) + 5*(1 - t[4]) + 5*(1 - t[5])) :   0.0 :   True
+        (4, 6, 'x') :  -Inf : p[6,x] + 2 - (p[4,x] + 5*(1 - delta[4,6,False,x]) + 5*(1 - t[4]) + 5*(1 - t[6])) :   0.0 :   True
+        (4, 6, 'y') :  -Inf : p[6,y] + 2 - (p[4,y] + 5*(1 - delta[4,6,False,y]) + 5*(1 - t[4]) + 5*(1 - t[6])) :   0.0 :   True
+        (4, 7, 'x') :  -Inf : p[7,x] + 2 - (p[4,x] + 5*(1 - delta[4,7,False,x]) + 5*(1 - t[4]) + 5*(1 - t[7])) :   0.0 :   True
+        (4, 7, 'y') :  -Inf : p[7,y] + 2 - (p[4,y] + 5*(1 - delta[4,7,False,y]) + 5*(1 - t[4]) + 5*(1 - t[7])) :   0.0 :   True
+        (4, 8, 'x') :  -Inf : p[8,x] + 3 - (p[4,x] + 5*(1 - delta[4,8,False,x]) + 5*(1 - t[4]) + 5*(1 - t[8])) :   0.0 :   True
+        (4, 8, 'y') :  -Inf : p[8,y] + 3 - (p[4,y] + 5*(1 - delta[4,8,False,y]) + 5*(1 - t[4]) + 5*(1 - t[8])) :   0.0 :   True
+        (4, 9, 'x') :  -Inf : p[9,x] + 3 - (p[4,x] + 5*(1 - delta[4,9,False,x]) + 5*(1 - t[4]) + 5*(1 - t[9])) :   0.0 :   True
+        (4, 9, 'y') :  -Inf : p[9,y] + 3 - (p[4,y] + 5*(1 - delta[4,9,False,y]) + 5*(1 - t[4]) + 5*(1 - t[9])) :   0.0 :   True
+        (5, 6, 'x') :  -Inf : p[6,x] + 2 - (p[5,x] + 5*(1 - delta[5,6,False,x]) + 5*(1 - t[5]) + 5*(1 - t[6])) :   0.0 :   True
+        (5, 6, 'y') :  -Inf : p[6,y] + 2 - (p[5,y] + 5*(1 - delta[5,6,False,y]) + 5*(1 - t[5]) + 5*(1 - t[6])) :   0.0 :   True
+        (5, 7, 'x') :  -Inf : p[7,x] + 2 - (p[5,x] + 5*(1 - delta[5,7,False,x]) + 5*(1 - t[5]) + 5*(1 - t[7])) :   0.0 :   True
+        (5, 7, 'y') :  -Inf : p[7,y] + 2 - (p[5,y] + 5*(1 - delta[5,7,False,y]) + 5*(1 - t[5]) + 5*(1 - t[7])) :   0.0 :   True
+        (5, 8, 'x') :  -Inf : p[8,x] + 3 - (p[5,x] + 5*(1 - delta[5,8,False,x]) + 5*(1 - t[5]) + 5*(1 - t[8])) :   0.0 :   True
+        (5, 8, 'y') :  -Inf : p[8,y] + 3 - (p[5,y] + 5*(1 - delta[5,8,False,y]) + 5*(1 - t[5]) + 5*(1 - t[8])) :   0.0 :   True
+        (5, 9, 'x') :  -Inf : p[9,x] + 3 - (p[5,x] + 5*(1 - delta[5,9,False,x]) + 5*(1 - t[5]) + 5*(1 - t[9])) :   0.0 :   True
+        (5, 9, 'y') :  -Inf : p[9,y] + 3 - (p[5,y] + 5*(1 - delta[5,9,False,y]) + 5*(1 - t[5]) + 5*(1 - t[9])) :   0.0 :   True
+        (6, 7, 'x') :  -Inf : p[7,x] + 2 - (p[6,x] + 5*(1 - delta[6,7,False,x]) + 5*(1 - t[6]) + 5*(1 - t[7])) :   0.0 :   True
+        (6, 7, 'y') :  -Inf : p[7,y] + 2 - (p[6,y] + 5*(1 - delta[6,7,False,y]) + 5*(1 - t[6]) + 5*(1 - t[7])) :   0.0 :   True
+        (6, 8, 'x') :  -Inf : p[8,x] + 3 - (p[6,x] + 5*(1 - delta[6,8,False,x]) + 5*(1 - t[6]) + 5*(1 - t[8])) :   0.0 :   True
+        (6, 8, 'y') :  -Inf : p[8,y] + 3 - (p[6,y] + 5*(1 - delta[6,8,False,y]) + 5*(1 - t[6]) + 5*(1 - t[8])) :   0.0 :   True
+        (6, 9, 'x') :  -Inf : p[9,x] + 3 - (p[6,x] + 5*(1 - delta[6,9,False,x]) + 5*(1 - t[6]) + 5*(1 - t[9])) :   0.0 :   True
+        (6, 9, 'y') :  -Inf : p[9,y] + 3 - (p[6,y] + 5*(1 - delta[6,9,False,y]) + 5*(1 - t[6]) + 5*(1 - t[9])) :   0.0 :   True
+        (7, 8, 'x') :  -Inf : p[8,x] + 3 - (p[7,x] + 5*(1 - delta[7,8,False,x]) + 5*(1 - t[7]) + 5*(1 - t[8])) :   0.0 :   True
+        (7, 8, 'y') :  -Inf : p[8,y] + 3 - (p[7,y] + 5*(1 - delta[7,8,False,y]) + 5*(1 - t[7]) + 5*(1 - t[8])) :   0.0 :   True
+        (7, 9, 'x') :  -Inf : p[9,x] + 3 - (p[7,x] + 5*(1 - delta[7,9,False,x]) + 5*(1 - t[7]) + 5*(1 - t[9])) :   0.0 :   True
+        (7, 9, 'y') :  -Inf : p[9,y] + 3 - (p[7,y] + 5*(1 - delta[7,9,False,y]) + 5*(1 - t[7]) + 5*(1 - t[9])) :   0.0 :   True
+        (8, 9, 'x') :  -Inf : p[9,x] + 3 - (p[8,x] + 5*(1 - delta[8,9,False,x]) + 5*(1 - t[8]) + 5*(1 - t[9])) :   0.0 :   True
+        (8, 9, 'y') :  -Inf : p[9,y] + 3 - (p[8,y] + 5*(1 - delta[8,9,False,y]) + 5*(1 - t[8]) + 5*(1 - t[9])) :   0.0 :   True
+    no_overlap_c : Size=81, Index=no_overlap_c_index, Active=True
+        Key    : Lower : Body                                                                            : Upper : Active
+        (1, 1) :   1.0 : delta[1,1,True,x] + delta[1,1,True,y] + delta[1,1,False,x] + delta[1,1,False,y] :  +Inf :   True
+        (1, 2) :   1.0 : delta[1,2,True,x] + delta[1,2,True,y] + delta[1,2,False,x] + delta[1,2,False,y] :  +Inf :   True
+        (1, 3) :   1.0 : delta[1,3,True,x] + delta[1,3,True,y] + delta[1,3,False,x] + delta[1,3,False,y] :  +Inf :   True
+        (1, 4) :   1.0 : delta[1,4,True,x] + delta[1,4,True,y] + delta[1,4,False,x] + delta[1,4,False,y] :  +Inf :   True
+        (1, 5) :   1.0 : delta[1,5,True,x] + delta[1,5,True,y] + delta[1,5,False,x] + delta[1,5,False,y] :  +Inf :   True
+        (1, 6) :   1.0 : delta[1,6,True,x] + delta[1,6,True,y] + delta[1,6,False,x] + delta[1,6,False,y] :  +Inf :   True
+        (1, 7) :   1.0 : delta[1,7,True,x] + delta[1,7,True,y] + delta[1,7,False,x] + delta[1,7,False,y] :  +Inf :   True
+        (1, 8) :   1.0 : delta[1,8,True,x] + delta[1,8,True,y] + delta[1,8,False,x] + delta[1,8,False,y] :  +Inf :   True
+        (1, 9) :   1.0 : delta[1,9,True,x] + delta[1,9,True,y] + delta[1,9,False,x] + delta[1,9,False,y] :  +Inf :   True
+        (2, 1) :   1.0 : delta[2,1,True,x] + delta[2,1,True,y] + delta[2,1,False,x] + delta[2,1,False,y] :  +Inf :   True
+        (2, 2) :   1.0 : delta[2,2,True,x] + delta[2,2,True,y] + delta[2,2,False,x] + delta[2,2,False,y] :  +Inf :   True
+        (2, 3) :   1.0 : delta[2,3,True,x] + delta[2,3,True,y] + delta[2,3,False,x] + delta[2,3,False,y] :  +Inf :   True
+        (2, 4) :   1.0 : delta[2,4,True,x] + delta[2,4,True,y] + delta[2,4,False,x] + delta[2,4,False,y] :  +Inf :   True
+        (2, 5) :   1.0 : delta[2,5,True,x] + delta[2,5,True,y] + delta[2,5,False,x] + delta[2,5,False,y] :  +Inf :   True
+        (2, 6) :   1.0 : delta[2,6,True,x] + delta[2,6,True,y] + delta[2,6,False,x] + delta[2,6,False,y] :  +Inf :   True
+        (2, 7) :   1.0 : delta[2,7,True,x] + delta[2,7,True,y] + delta[2,7,False,x] + delta[2,7,False,y] :  +Inf :   True
+        (2, 8) :   1.0 : delta[2,8,True,x] + delta[2,8,True,y] + delta[2,8,False,x] + delta[2,8,False,y] :  +Inf :   True
+        (2, 9) :   1.0 : delta[2,9,True,x] + delta[2,9,True,y] + delta[2,9,False,x] + delta[2,9,False,y] :  +Inf :   True
+        (3, 1) :   1.0 : delta[3,1,True,x] + delta[3,1,True,y] + delta[3,1,False,x] + delta[3,1,False,y] :  +Inf :   True
+        (3, 2) :   1.0 : delta[3,2,True,x] + delta[3,2,True,y] + delta[3,2,False,x] + delta[3,2,False,y] :  +Inf :   True
+        (3, 3) :   1.0 : delta[3,3,True,x] + delta[3,3,True,y] + delta[3,3,False,x] + delta[3,3,False,y] :  +Inf :   True
+        (3, 4) :   1.0 : delta[3,4,True,x] + delta[3,4,True,y] + delta[3,4,False,x] + delta[3,4,False,y] :  +Inf :   True
+        (3, 5) :   1.0 : delta[3,5,True,x] + delta[3,5,True,y] + delta[3,5,False,x] + delta[3,5,False,y] :  +Inf :   True
+        (3, 6) :   1.0 : delta[3,6,True,x] + delta[3,6,True,y] + delta[3,6,False,x] + delta[3,6,False,y] :  +Inf :   True
+        (3, 7) :   1.0 : delta[3,7,True,x] + delta[3,7,True,y] + delta[3,7,False,x] + delta[3,7,False,y] :  +Inf :   True
+        (3, 8) :   1.0 : delta[3,8,True,x] + delta[3,8,True,y] + delta[3,8,False,x] + delta[3,8,False,y] :  +Inf :   True
+        (3, 9) :   1.0 : delta[3,9,True,x] + delta[3,9,True,y] + delta[3,9,False,x] + delta[3,9,False,y] :  +Inf :   True
+        (4, 1) :   1.0 : delta[4,1,True,x] + delta[4,1,True,y] + delta[4,1,False,x] + delta[4,1,False,y] :  +Inf :   True
+        (4, 2) :   1.0 : delta[4,2,True,x] + delta[4,2,True,y] + delta[4,2,False,x] + delta[4,2,False,y] :  +Inf :   True
+        (4, 3) :   1.0 : delta[4,3,True,x] + delta[4,3,True,y] + delta[4,3,False,x] + delta[4,3,False,y] :  +Inf :   True
+        (4, 4) :   1.0 : delta[4,4,True,x] + delta[4,4,True,y] + delta[4,4,False,x] + delta[4,4,False,y] :  +Inf :   True
+        (4, 5) :   1.0 : delta[4,5,True,x] + delta[4,5,True,y] + delta[4,5,False,x] + delta[4,5,False,y] :  +Inf :   True
+        (4, 6) :   1.0 : delta[4,6,True,x] + delta[4,6,True,y] + delta[4,6,False,x] + delta[4,6,False,y] :  +Inf :   True
+        (4, 7) :   1.0 : delta[4,7,True,x] + delta[4,7,True,y] + delta[4,7,False,x] + delta[4,7,False,y] :  +Inf :   True
+        (4, 8) :   1.0 : delta[4,8,True,x] + delta[4,8,True,y] + delta[4,8,False,x] + delta[4,8,False,y] :  +Inf :   True
+        (4, 9) :   1.0 : delta[4,9,True,x] + delta[4,9,True,y] + delta[4,9,False,x] + delta[4,9,False,y] :  +Inf :   True
+        (5, 1) :   1.0 : delta[5,1,True,x] + delta[5,1,True,y] + delta[5,1,False,x] + delta[5,1,False,y] :  +Inf :   True
+        (5, 2) :   1.0 : delta[5,2,True,x] + delta[5,2,True,y] + delta[5,2,False,x] + delta[5,2,False,y] :  +Inf :   True
+        (5, 3) :   1.0 : delta[5,3,True,x] + delta[5,3,True,y] + delta[5,3,False,x] + delta[5,3,False,y] :  +Inf :   True
+        (5, 4) :   1.0 : delta[5,4,True,x] + delta[5,4,True,y] + delta[5,4,False,x] + delta[5,4,False,y] :  +Inf :   True
+        (5, 5) :   1.0 : delta[5,5,True,x] + delta[5,5,True,y] + delta[5,5,False,x] + delta[5,5,False,y] :  +Inf :   True
+        (5, 6) :   1.0 : delta[5,6,True,x] + delta[5,6,True,y] + delta[5,6,False,x] + delta[5,6,False,y] :  +Inf :   True
+        (5, 7) :   1.0 : delta[5,7,True,x] + delta[5,7,True,y] + delta[5,7,False,x] + delta[5,7,False,y] :  +Inf :   True
+        (5, 8) :   1.0 : delta[5,8,True,x] + delta[5,8,True,y] + delta[5,8,False,x] + delta[5,8,False,y] :  +Inf :   True
+        (5, 9) :   1.0 : delta[5,9,True,x] + delta[5,9,True,y] + delta[5,9,False,x] + delta[5,9,False,y] :  +Inf :   True
+        (6, 1) :   1.0 : delta[6,1,True,x] + delta[6,1,True,y] + delta[6,1,False,x] + delta[6,1,False,y] :  +Inf :   True
+        (6, 2) :   1.0 : delta[6,2,True,x] + delta[6,2,True,y] + delta[6,2,False,x] + delta[6,2,False,y] :  +Inf :   True
+        (6, 3) :   1.0 : delta[6,3,True,x] + delta[6,3,True,y] + delta[6,3,False,x] + delta[6,3,False,y] :  +Inf :   True
+        (6, 4) :   1.0 : delta[6,4,True,x] + delta[6,4,True,y] + delta[6,4,False,x] + delta[6,4,False,y] :  +Inf :   True
+        (6, 5) :   1.0 : delta[6,5,True,x] + delta[6,5,True,y] + delta[6,5,False,x] + delta[6,5,False,y] :  +Inf :   True
+        (6, 6) :   1.0 : delta[6,6,True,x] + delta[6,6,True,y] + delta[6,6,False,x] + delta[6,6,False,y] :  +Inf :   True
+        (6, 7) :   1.0 : delta[6,7,True,x] + delta[6,7,True,y] + delta[6,7,False,x] + delta[6,7,False,y] :  +Inf :   True
+        (6, 8) :   1.0 : delta[6,8,True,x] + delta[6,8,True,y] + delta[6,8,False,x] + delta[6,8,False,y] :  +Inf :   True
+        (6, 9) :   1.0 : delta[6,9,True,x] + delta[6,9,True,y] + delta[6,9,False,x] + delta[6,9,False,y] :  +Inf :   True
+        (7, 1) :   1.0 : delta[7,1,True,x] + delta[7,1,True,y] + delta[7,1,False,x] + delta[7,1,False,y] :  +Inf :   True
+        (7, 2) :   1.0 : delta[7,2,True,x] + delta[7,2,True,y] + delta[7,2,False,x] + delta[7,2,False,y] :  +Inf :   True
+        (7, 3) :   1.0 : delta[7,3,True,x] + delta[7,3,True,y] + delta[7,3,False,x] + delta[7,3,False,y] :  +Inf :   True
+        (7, 4) :   1.0 : delta[7,4,True,x] + delta[7,4,True,y] + delta[7,4,False,x] + delta[7,4,False,y] :  +Inf :   True
+        (7, 5) :   1.0 : delta[7,5,True,x] + delta[7,5,True,y] + delta[7,5,False,x] + delta[7,5,False,y] :  +Inf :   True
+        (7, 6) :   1.0 : delta[7,6,True,x] + delta[7,6,True,y] + delta[7,6,False,x] + delta[7,6,False,y] :  +Inf :   True
+        (7, 7) :   1.0 : delta[7,7,True,x] + delta[7,7,True,y] + delta[7,7,False,x] + delta[7,7,False,y] :  +Inf :   True
+        (7, 8) :   1.0 : delta[7,8,True,x] + delta[7,8,True,y] + delta[7,8,False,x] + delta[7,8,False,y] :  +Inf :   True
+        (7, 9) :   1.0 : delta[7,9,True,x] + delta[7,9,True,y] + delta[7,9,False,x] + delta[7,9,False,y] :  +Inf :   True
+        (8, 1) :   1.0 : delta[8,1,True,x] + delta[8,1,True,y] + delta[8,1,False,x] + delta[8,1,False,y] :  +Inf :   True
+        (8, 2) :   1.0 : delta[8,2,True,x] + delta[8,2,True,y] + delta[8,2,False,x] + delta[8,2,False,y] :  +Inf :   True
+        (8, 3) :   1.0 : delta[8,3,True,x] + delta[8,3,True,y] + delta[8,3,False,x] + delta[8,3,False,y] :  +Inf :   True
+        (8, 4) :   1.0 : delta[8,4,True,x] + delta[8,4,True,y] + delta[8,4,False,x] + delta[8,4,False,y] :  +Inf :   True
+        (8, 5) :   1.0 : delta[8,5,True,x] + delta[8,5,True,y] + delta[8,5,False,x] + delta[8,5,False,y] :  +Inf :   True
+        (8, 6) :   1.0 : delta[8,6,True,x] + delta[8,6,True,y] + delta[8,6,False,x] + delta[8,6,False,y] :  +Inf :   True
+        (8, 7) :   1.0 : delta[8,7,True,x] + delta[8,7,True,y] + delta[8,7,False,x] + delta[8,7,False,y] :  +Inf :   True
+        (8, 8) :   1.0 : delta[8,8,True,x] + delta[8,8,True,y] + delta[8,8,False,x] + delta[8,8,False,y] :  +Inf :   True
+        (8, 9) :   1.0 : delta[8,9,True,x] + delta[8,9,True,y] + delta[8,9,False,x] + delta[8,9,False,y] :  +Inf :   True
+        (9, 1) :   1.0 : delta[9,1,True,x] + delta[9,1,True,y] + delta[9,1,False,x] + delta[9,1,False,y] :  +Inf :   True
+        (9, 2) :   1.0 : delta[9,2,True,x] + delta[9,2,True,y] + delta[9,2,False,x] + delta[9,2,False,y] :  +Inf :   True
+        (9, 3) :   1.0 : delta[9,3,True,x] + delta[9,3,True,y] + delta[9,3,False,x] + delta[9,3,False,y] :  +Inf :   True
+        (9, 4) :   1.0 : delta[9,4,True,x] + delta[9,4,True,y] + delta[9,4,False,x] + delta[9,4,False,y] :  +Inf :   True
+        (9, 5) :   1.0 : delta[9,5,True,x] + delta[9,5,True,y] + delta[9,5,False,x] + delta[9,5,False,y] :  +Inf :   True
+        (9, 6) :   1.0 : delta[9,6,True,x] + delta[9,6,True,y] + delta[9,6,False,x] + delta[9,6,False,y] :  +Inf :   True
+        (9, 7) :   1.0 : delta[9,7,True,x] + delta[9,7,True,y] + delta[9,7,False,x] + delta[9,7,False,y] :  +Inf :   True
+        (9, 8) :   1.0 : delta[9,8,True,x] + delta[9,8,True,y] + delta[9,8,False,x] + delta[9,8,False,y] :  +Inf :   True
+        (9, 9) :   1.0 : delta[9,9,True,x] + delta[9,9,True,y] + delta[9,9,False,x] + delta[9,9,False,y] :  +Inf :   True
+    order1_c : Size=6, Index=I, Active=True
+        Key : Lower : Body        : Upper : Active
+          1 :  -Inf : t[2] - t[1] :   0.0 :   True
+          2 :  -Inf : t[3] - t[2] :   0.0 :   True
+          3 :  -Inf : t[4] - t[3] :   0.0 :   True
+          5 :  -Inf : t[6] - t[5] :   0.0 :   True
+          6 :  -Inf : t[7] - t[6] :   0.0 :   True
+          8 :  -Inf : t[9] - t[8] :   0.0 :   True
+    order2_c : Size=6, Index=I, Active=True
+        Key : Lower : Body                                : Upper : Active
+          1 :  -Inf : p[2,x] + p[2,y] - (p[1,x] + p[1,y]) :   0.0 :   True
+          2 :  -Inf : p[3,x] + p[3,y] - (p[2,x] + p[2,y]) :   0.0 :   True
+          3 :  -Inf : p[4,x] + p[4,y] - (p[3,x] + p[3,y]) :   0.0 :   True
+          5 :  -Inf : p[6,x] + p[6,y] - (p[5,x] + p[5,y]) :   0.0 :   True
+          6 :  -Inf : p[7,x] + p[7,y] - (p[6,x] + p[6,y]) :   0.0 :   True
+          8 :  -Inf : p[9,x] + p[9,y] - (p[8,x] + p[8,y]) :   0.0 :   True
+    theta_c : Size=1, Index=None, Active=True
+        Key  : Lower : Body                                                 : Upper : Active
+        None :   1.0 : theta[1] + theta[2] + theta[3] + theta[4] + theta[5] :   1.0 :   True
+    total_area_c : Size=1, Index=None, Active=True
+        Key  : Lower : Body                                                                       : Upper : Active
+        None :   0.0 : t[1] + t[2] + t[3] + t[4] + 4*t[5] + 4*t[6] + 4*t[7] + 9*t[8] + 9*t[9] - a :   0.0 :   True
+    width_c : Size=1, Index=None, Active=True
+        Key  : Lower : Body                                                             : Upper : Active
+        None :   0.0 : theta[1] + 2*theta[2] + 3*theta[3] + 4*theta[4] + 5*theta[5] - w :   0.0 :   True
+
+34 Declarations: I J A C K size size_space t delta_index_index_0_index_0 delta_index_index_0 delta_index delta theta p_index p w a inside_space_c_index inside_space_c no_overlap1_c_index_index_0 no_overlap1_c_index no_overlap1_c no_overlap2_c_index_index_0 no_overlap2_c_index no_overlap2_c no_overlap_c_index no_overlap_c width_c area_c theta_c total_area_c order1_c order2_c objective
