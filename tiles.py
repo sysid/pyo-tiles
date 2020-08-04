@@ -165,9 +165,9 @@ if __name__ == "__main__":
     logging.getLogger('matplotlib').setLevel(logging.INFO)
     print(f"{'Tiles':.^80}")
 
-    # name = 'inv_5_5'
     # name = 'test'
-    name = 'inv_10_10'
+    name = 'inv_5_5'
+    # name = 'inv_10_10'
     inventory = Inventory(inventory=getattr(settings, name))
     config = dict(inventory=inventory)
 
